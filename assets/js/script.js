@@ -20,7 +20,7 @@ function retrieveQuestions() {
             addQuestionInfo(questions[currentIndex], qCount);
         }
     }
-    questionRequest.open("GET", "js/questions.json", true);
+    questionRequest.open("GET", "/assets/js/questions.json", true);
     questionRequest.send();
     questionNumber(7) // 
 }
@@ -33,8 +33,8 @@ function questionNumber(num) {
 }
 
 /** Function to populate flag images and questions options */
-function addQuestionInfo(obj, count) {
-    if(currentIndex < counter){
+function addQuestionInfo(obj, counterSpan) {
+    if(currentIndex < counterSpan){
         flagImg.src=`img/${obj.img}`;
         //Create options
         flagList.forEach((li, i)=>{
