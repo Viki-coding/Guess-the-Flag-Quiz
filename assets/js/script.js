@@ -4,8 +4,11 @@ const divFlagImg = document.querySelector ('.flag-img');
 const flagImg = document.querySelector ('.flag-img img');
 const options = document.querySelector ('.options ul');
 const flagList = document.querySelectorAll('.options ul li');
+const score = document.querySelector('h3 span');
+const scoreDiv = document.querySelector('.scoreboard');
 
 let currentIndex = 0;
+let correctAnswer = 0;
 
 /** Add function to retrieve questions from our questions.json file */
 function retrieveQuestions() {
@@ -45,5 +48,19 @@ function addQuestionInfo(obj, counterSpan) {
         //insert the option in the li
         li.innerHTML = obj[`option`][i];
         });
+    }
+}
+
+/** Function to check if answer is correct or incorrect */
+function checkAns(rAnswer, counterSpan) {
+    let chosenAns;
+    for (let i = 0; i < flagList.length; i++){
+        if(flagList[i].classList.contains('active')){
+            chosenAns = flagList[i].dataset.answer;
+            if(rAnswer === chosenAns){
+                flagList[i].classList.add('sucess');
+                correctAnswer++;
+            }
+        }
     }
 }
