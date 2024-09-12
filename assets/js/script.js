@@ -8,6 +8,7 @@ const score = document.querySelector('h3 span');
 const scoreDiv = document.querySelector('.scoreboard');
 const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
+const btnReset = document.querySelector('#reset');
 
 
 let currentIndex = 0;
@@ -32,10 +33,10 @@ function retrieveQuestions() {
                     //Increase index
                     currentIndex++;
 
-                    //automatically check answer after 5000 miliseconds
+                    //once answer is checked move automatically move to next question after 500 miliseconds
                     setTimeout(() => {
                         checkAns(rightAns, qCount);
-                    }, 5000);
+                    }, 500);
 
                     setTimeout(() => {
                         //remove previous flag
