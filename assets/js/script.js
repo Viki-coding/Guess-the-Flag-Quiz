@@ -16,6 +16,8 @@ function retrieveQuestions() {
             //number of questions per game
             let qCount = 10;
             questionNumber(qCount);
+            //Add question info
+            addQuestionInfo(questions[currentIndex], qCount);
         }
     }
     questionRequest.open("GET", "js/questions.json", true);
@@ -41,7 +43,7 @@ function addQuestionInfo(obj, count) {
         //create dynamic data attribute for each li
         li.dataset.answer=obj[`option`][i];
         //insert the option in the li
-        li.innerHTML = obj[`option`];
-        })
+        li.innerHTML = obj[`option`][i];
+        });
     }
 }
