@@ -64,3 +64,17 @@ h3 {
     color: blueviolet;
     padding: 2rem;
 }
+
+.flags {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 2rem;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.flag img {
+    max-width: 50px;
+}
