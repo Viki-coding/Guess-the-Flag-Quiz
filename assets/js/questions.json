@@ -1,0 +1,92 @@
+[
+    {
+        "img": "australia.webp",
+        "option": [
+            "Uruguay",
+            "New Zealand",
+            "Australia"
+        ],
+        "correct_answer": "Australia"
+    },
+    {
+        "img": "Iceland.webp",
+        "option": [
+            "Iceland",
+            "Chile",
+            "Brazil"
+        ],
+        "correct_answer": "Iceland"
+    },
+    {
+        "img": "India.webp",
+        "option": [
+            "Bulgaria",
+            "India",
+            "Bhutan"
+        ],
+        "correct_answer": "India"
+    },
+    {
+        "img": "Ireland.webp",
+        "option": [
+            "India",
+            "Chad",
+            "Ireland"
+        ],
+        "correct_answer": "Ireland"
+    },
+    {
+        "img": "Jamaica.webp",
+        "option": [
+            "Jamaica",
+            "Mali",
+            "Jordan"
+        ],
+        "correct_answer": "Jamaica"
+    },
+    {
+        "img": "newzealand.webp",
+        "option": [
+            "Australia",
+            "New Zealand",
+            "Mozambique"
+        ],
+        "correct_answer": "New Zealand"
+    },
+    {
+        "img": "Palestine.webp",
+        "option": [
+            "Portual",
+            "Romania",
+            "Palestine"
+        ],
+        "correct_answer": "Palestine"
+    },
+    {
+        "img": "Romania.webp",
+        "option": [
+            "Norway",
+            "Poland",
+            "Romania"
+        ],
+        "correct_answer": "Romania"
+    },
+    {
+        "img": "south-africa.webp",
+        "option": [
+            "Paraguay",
+            "South Africa",
+            "Peru"
+        ],
+        "correct_answer": "South Africa"
+    },
+    {
+        "img": "south-korea.webp",
+        "option": [
+            "South Korea",
+            "Philippines",
+            "Singapore"
+        ],
+        "correct_answer": "South Korea"
+    }
+]
