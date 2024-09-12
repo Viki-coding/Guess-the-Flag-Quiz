@@ -9,6 +9,7 @@ const scoreDiv = document.querySelector('.scoreboard');
 const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
+const instructions = document.querySelector('h3 .instructions');
 
 
 let currentIndex = 0;
@@ -109,6 +110,7 @@ function displayResults(count){
     if(currentIndex === count) {
         options.innerHTML = '';
         divFlagImg.innerHTML = '';
+        instructions.display = 'none';
         scoreDiv.computedStyleMap.display = 'block';
         correctAnswer.innerHTML = rightAns;
         incorrectAnswer.innerHTML = count - rightAns;
