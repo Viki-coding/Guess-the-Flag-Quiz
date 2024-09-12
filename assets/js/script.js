@@ -23,6 +23,8 @@ function retrieveQuestions() {
             //number of questions per game
             let qCount = 10;
             questionNumber(qCount);
+            //Select random flags/answers for each game
+            questions = questions.sort(() => Math.random() - Math.random()).slice(0, 10);
             //Add question info
             addQuestionInfo(questions[currentIndex], qCount);
             //add event listener for a click on the flag options
