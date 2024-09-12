@@ -126,3 +126,14 @@ h3 {
     color: white;
     font-size: larger;
 }
+
+#reset {
+    border: 5px solid #9d4dbb;
+    background-color: #f3af19;
+    padding: 1.3rem;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
