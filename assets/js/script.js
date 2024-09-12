@@ -24,6 +24,12 @@ function retrieveQuestions() {
             questionNumber(qCount);
             //Add question info
             addQuestionInfo(questions[currentIndex], qCount);
+            //add event listener for a click on the flag options
+            flagList.forEach(li => {
+                li.addEventListener('click', () => {
+                    li.classList.add('active');
+                })
+            })
         }
     }
     questionRequest.open("GET", "/assets/js/questions.json", true);
@@ -63,6 +69,9 @@ function checkAns(rAnswer, counterSpan) {
             if(rAnswer === chosenAns){
                 flagList[i].classList.add('sucess');
                 rightAns++;
+                score.innerHTML = rightAns++;
+            }else{
+                flagList[i].classList.add('wrong');
             }
         }
     }
