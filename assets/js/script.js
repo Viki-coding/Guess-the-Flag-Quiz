@@ -42,6 +42,8 @@ function retrieveQuestions() {
                         flagImg.src = '';
                         //remove all classes (active, incorrect, correct)
                         li.classList.remove('active');
+                        li.classList.remove('sucess');
+                        li.classList.remove('wrong');
                     })
                 })
             })
