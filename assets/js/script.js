@@ -27,14 +27,28 @@ function retrieveQuestions() {
             //add event listener for a click on the flag options
             flagList.forEach(li => {
                 li.addEventListener('click', () => {
+                    let rightAns = questions[currentIndex].correct_answer;
                     li.classList.add('active');
+                    //Increase index
+                    currentIndex++;
+
+                    //automatically check answer after 5000 miliseconds
+                    setTimeout(() => {
+                        checkAns(rightAns, qCount);
+                    }.5000);
+
+                    setTimeout(() => {
+                        //remove previous flag
+                        flagImg.src = '';
+                        //remove all classes (active, incorrect, correct)
+                        li.classList.remove('active');
+                    })
                 })
             })
         }
     }
     questionRequest.open("GET", "/assets/js/questions.json", true);
     questionRequest.send();
-    questionNumber(7) // 
 }
 
 retrieveQuestions();
