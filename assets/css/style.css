@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: #4c51f7;
 }
 
 html {
@@ -42,11 +42,11 @@ h3 {
 }
 
 .container {
-    background: pink;
+    background: #f3af19;
     padding: 30px;
     margin: 100px auto 0;
     border-radius: 5%;
-    color: black;
+    color: white;
     width: 90%;
     max-width: 600px;
 }
@@ -107,13 +107,22 @@ h3 {
 
 .flags .options ul li {
     font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 1rem;
     padding-top: 1.5rem;
-    background-color: aliceblue;
+    background-color: white;
     padding: 1.5rem;
     width: 200px;
-    color: blue;
-    border-radius: .6rem;
+    color: #9d4dbb;
+    border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0.5rem;
+    border: 5px solid #4c51f7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* create a hover effect when going over potential answers, & no hover once answer selectd, re-created from W3 schools*/
+.options:hover:not([disabled]) {
+    background: #9d4dbb;
+    color: white;
+    font-size: larger;
 }
