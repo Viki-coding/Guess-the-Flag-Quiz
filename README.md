@@ -1,131 +1,130 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+BIOLOGY QUIZ
+Introduction
+This Biology Quiz is a quick, fun, educational 10 question quiz which tests the user on biology questions. The user will first be introduced to the quiz and given instructions on how to play. The will answer question and be given feedback. A final tally will be given at the end and the option to play again.
 
-Welcome Viki Mulhall,
+Description - Project Purpose
+The game is designed to give the user a fun interative method to test their knowledge on biology.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+User Demographics - Target audience
+The target audience is secondary school children part-taking in the Junior Cert or GCSE curriculum. The quiz could be part of methods used by teachers to test the knowlege of their pupils in particular biology topics.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+UX
+Site Goals: First Time users will find the site intuitive and easy to navigate. The site provides the user with what they expect:
 
-## Gitpod Reminders
+Instructions of how to play
+Prompt the player on a clicking an answer
+Immediate feedback of whether an answer is correct or not.
+A tally of the score as they progress
+Provide a final tally of score.
+Provide a choice of whether they would like to play again or return to home page.
+The Home page has a clear call to action with features such clear and easy to understand Instructions with a START button to begin. Our return customers will recall how easy it is to navigate and to see if they can improve on previous scores.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Design Choices
+Color Scheme
+We did some research to investigate the most popular computer games amounst this age group of males and females between the 12-16 age bracket. Fortnite was one of the most popular amoungst both sexes. We decided to use the Fortnite color scheme. We hope that this will invoke a sense of a challenge, a sense of belonging, a sense of fun.
 
-`python3 -m http.server`
+We checked which font colors stood out best agaist these base colors. All receiving good ratings. Graphic illustrated below:
 
-A blue button should appear to click: _Make Public_,
+Typography
+We used the font Comic Sans which use a Sans Serif which is good for accessibility and is a dyslexia friendly font. We feel it looks fun and is clear and easy to read.
 
-Another blue button should appear to click: _Open Browser_.
+Wireframes
+We created a wireframe using Balsamiq to plan out the structure and style of the app. We spoke with the teachers and pupils to gain their insight and views. This was created for displaying the site on mobiles and larger screens such as tablets and desktops. This was the beginning of our design journey, as we progressed with the design we made some changes to the actual website. During this planning phase we researched the fonts and background colors and text colors that would be most suitable and gained user feedback.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+Picture below of WIREFRAMES
 
-A blue button should appear to click: _Make Public_,
+Login In & Instructions Area
+Quiz Area
+End Game & Results ARea
+FEATURES
+Login In & Instructions Area
+The Login and Instructions Area is a nice clear, easy to read set of instructions. The user is promoted to enter their first name into the value box as it has been pre-populated with the text 'Enter First Name'. Then the natural progression is to move down to click on the large bright START button under it. If the user has not entered a name they will be prompted to do so if they click on start without prepopulating the field.
 
-Another blue button should appear to click: _Open Browser_.
+Quiz Area
+Endgame & Results Area
+**Picture belows
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Login
+Interaction Points
+Future Implementation Section
+Accessibility
+Aria labels used to describe the content for screen readers and other accessibility tools. Colors suitable for people who are color blind and sans serif text suitable for people with dyslexia. We used coolers to ensure our background and contrast colors worked efficiently and clearly. After running our deployed site in incognito mode using Lighthouse we identified ?????
 
-To log into the Heroku toolbelt CLI:
+Technologies Used
+HTML and CSS and JS
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Frameworks, Libraries and Programs Used
+Balsamiq Wireframes - used to create wireframes
+Git - version control
+Git Pod
+Git Hub - To save and store the files for the website
+Google Fonts - to import fonts onto the website
+Font Awesome for iconography on website
+Favicon.io - to create favicon
+Coolors - checking colour pallets and their contrast abilities with fonts.
+Berme.net - to reduce image sizes and convert to .webp
+Canva - to create text image on flip card to use fortnite color pallette.
+Manual Testing
+We performed manual testing on the site and also ran our html and css codes through validators.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+W3C Validator
+HTML code on all pages passes through the official W3C validator with no issues.
+HOME Page - 3C Validator Test:
+ssets/9010e268-d982-4b80-b8ad-1dee100c591c">
 
-### Connecting your Mongo database
+CSS (Jigsaw) validator
+CSS code passes through the official (Jigsaw) validator with no issues
+Quality Assurance
+We took a systematic and structural approach to manually test each page to ensure it functions correctly and to help identify potential bugs. We created a specific testing template to ensure and re-check all pages were working correctly as specified with expected and actual outcomes using a methodical approach.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+Test Evaluation Sheet:
 
-------
+As shown in the evaluation sheet above we navigated around our site and tested all available options to ensure they were working as intended, such as checking if a valid email address is entered and prompting the user if it is not, checking when we click on the Facebook icon, that it does in fact take us to a Facebook page and opens in a new page.
 
-## Release History
+Lighthouse Testing
+Incognito lighthouse testing was completed on all pages with excellent results ensuring optimal page loading times:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+HOME Page - Lighthouse Testing
+BUGS
+Solved Bugs
 
-**June 18, 2024,** Add Mongo back into template
+Enter name input field width not fitting when changeing width to mobile.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+User Experience Assurance
+We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each page has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a Samsung Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
 
-**May 28 2024:** Fix Mongo and Links installs
+Deployment Steps
+The site is Deployed using GitHub Pages
+Login to GitHub
+Go to the projects repository (https://github.com/Viki-coding/Dungarvan-Health-Clinic/)
+Click on Settings
+Select pages in the left navigation bar
+From SOURCE dropdown select Deploy from a Branch
+Under BRANCH from dropdown select Main Branch and SAVE
+The site is now deployed but may take a few minutes to go live.
+Return to CODE tab of Github repo and wait a few minutes for build to finish, refresh page. This will show on github-pages to see active deployments.
+How to Fork
+Login to Github
+Go to Project repository
+Click the FORK button top right corner
+How to Clone
+Log into Github
+Go to project repository
+click on the code button, select what want to clone HTTPS, SSH or GitHub CLI and copy the link.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
+Copy 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
+Acknowledging Contributions & Credits
+We gained inspiration from these tutorial videos on youtube: https://www.youtube.com/watch?v=MkvHPOT4RS8 How to HIDE and SHOW HTML using JavaScript https://www.youtube.com/watch?v=-oQnDrNzTTA. Hide and Show div using JavaScript | On Click Hide and Show Div[HowToCode School.com] https://www.w3schools.com/jsref/jsref_foreach.asp forEach method in Javascript to get inspiration fothe question/answers. https://www.youtube.com/watch?v=ml2N3APdoB0 How to revert to previous commits to source bug problem when none of my answers and questions would display. https://www.youtube.com/watch?v=JeXqaKeJSRI How to accept JavaScript USER INPUT in 5 minutes - Bro Code https://www.youtube.com/watch?v=JeXqaKeJSRI Local Storage Explained in 10 min - ProMaker Dev https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card Inspired by W3 schools to create flip card to reveal results https://www.youtube.com/watch?v=QU6z69P5BrU interpreted how to the quiz choose random questions from the list.
 
-**April 26 2024:** Update node version to 16
+Image by Gerd Altmann from Pixabay Results image
 
-**September 20 2023:** Update Python version to 3.9.17.
+We gained some inspiration from the CI instruction videos for the 'Love Maths' site.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+We got help with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutors, Ray, Gemma, Roo and Alan for their expertise and ability to explain some of the 'challenges' we encountered. Thanks our very supportive and positive facilitator Laura Maycock and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+CONTENT The content text for Dungarvan Health Clinic is fictious and is written by Viki Mulhall. The icons in the footer were taken from Font Awesome.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+MEDIA The text image used on the results page was created by me, Viki Mulhall in canva.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Legal & Ethical Compliance
+This project is for educational purposes only.
