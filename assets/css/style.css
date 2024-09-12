@@ -40,3 +40,27 @@ h3 {
     color: blueviolet;
     padding: 2rem 0;
 }
+
+.container {
+    background: pink;
+    padding: 30px;
+    margin: 100px auto 0;
+    border-radius: 5%;
+    color: black;
+    width: 90%;
+    max-width: 600px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box .counter {
+    font-size: 2rem;
+    font-weight: 650;
+    color: blueviolet;
+    padding: 2rem;
+}
