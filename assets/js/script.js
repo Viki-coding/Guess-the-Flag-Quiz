@@ -6,9 +6,12 @@ const options = document.querySelector ('.options ul');
 const flagList = document.querySelectorAll('.options ul li');
 const score = document.querySelector('h3 span');
 const scoreDiv = document.querySelector('.scoreboard');
+const correctAnswer = document.querySelector('.scoreboard .correct span');
+const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
+
 
 let currentIndex = 0;
-let correctAnswer = 0;
+let rightAns = 0;
 
 /** Add function to retrieve questions from our questions.json file */
 function retrieveQuestions() {
@@ -59,7 +62,7 @@ function checkAns(rAnswer, counterSpan) {
             chosenAns = flagList[i].dataset.answer;
             if(rAnswer === chosenAns){
                 flagList[i].classList.add('sucess');
-                correctAnswer++;
+                rightAns++;
             }
         }
     }
