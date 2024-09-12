@@ -84,3 +84,15 @@ h3 {
     height: 20rem;
     animation: zoom-in-zoom-out 2s ease-in-out;
 }
+
+@keyframes zoom-in-zoom-out{
+    0% {
+        transform: scale(.9,.9);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
