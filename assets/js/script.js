@@ -35,7 +35,7 @@ function questionNumber(num) {
 /** Function to populate flag images and questions options */
 function addQuestionInfo(obj, counterSpan) {
     if(currentIndex < counterSpan){
-        flagImg.src=`img/${obj.img}`;
+        flagImg.src=`/assets/images/flags/${obj.img}`;  
         //Create options
         flagList.forEach((li, i)=>{
         //give each li a dynamic id
