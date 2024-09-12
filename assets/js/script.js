@@ -49,7 +49,12 @@ function retrieveQuestions() {
                         //Add question data info to show next question
                         addQuestionInfo(questions[currentIndex], qCount);
                     }, 1000);
-                })
+
+                    //Display results
+                    setTimeout(() => {
+                        displayResults(qCount);
+                    }, 1002);
+                });
             })
         }
     }
@@ -94,5 +99,16 @@ function checkAns(rAnswer, counterSpan) {
                 flagList[i].classList.add('wrong');
             }
         }
+    }
+}
+
+//Function to display results
+function displayResults(count){
+    if(currentIndex === count) {
+        options.innerHTML = '';
+        divFlagImg.innerHTML = '';
+        scoreDiv.computedStyleMap.display = 'block';
+        correctAnswer.innerHTML = rightAns;
+        incorrectAnswer.innerHTML = count - rightAns;
     }
 }
