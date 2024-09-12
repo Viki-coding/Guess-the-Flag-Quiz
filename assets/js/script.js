@@ -112,3 +112,8 @@ function displayResults(count){
         incorrectAnswer.innerHTML = count - rightAns;
     }
 }
+
+//Reset new game
+btnReset.addEventListener('click', () => {
+    window.location.reload();
+});
