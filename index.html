@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Meta tags for search engines -->
-	<meta name="description" content="Guess the Flag Game, a fun interactive way to test the knowledge of your flags from around the globe!">
-	<meta name="keywords" content="Flag game, flag quiz, test your knowledge, fun, educational games, children">
+    <meta name="description"
+        content="Guess the Flag Game, a fun interactive way to test the knowledge of your flags from around the globe!">
+    <meta name="keywords" content="Flag game, flag quiz, test your knowledge, fun, educational games, children">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,50 +30,37 @@
 </head>
 
 <body>
-<main>
-    <div class ="container">
-        <h1>World Flags</h1>
-        <h3>Instructions: Which Countries Flag? Click your guess!</h3>
-        <div class="box">
-            <h3>Score: <span>5</span></h3>
-            <div class="counter">Question: <span></span></div>
+    <main>
+        <div class="container">
+            <h1>World Flags</h1>
+            <h3>Instructions: Which Countries Flag? Click your guess!</h3>
+            <div class="box">
+                <h3>Score: <span>5</span></h3>
+                <div class="counter">Question: <span></span></div>
+            </div>
+            <div class="flags">
+                <div class="flag-img">
+                    <img src="">
+                </div>
+                <div class="options">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="scoreboard">
+                    <h3 class="correct">Correct Answers:<span>5</span></h3>
+                    <h3 class="incorrect">Incorrect Answers:<span>2</span></h3>
+                    <button id="reset">Reset Game</button>
+                </div>
+            </div>
         </div>
-        <div class="flags">
-            <div class="flag-img">
-                <img src="/assets/images/flags/ireland.webp">
-            </div>
-            <div class="options">
-                <ul>
-                    <li>Ireland</li>
-                    <li>Iraq</li>
-                    <li>India</li>
-                </ul>
-            </div>
-            <div class="scoreboard">
-                <h3 class="correct">Correct Answers:<span>5</span></h3>
-                <h3 class="incorrect">Incorrect Answers:<span>2</span></h3>
-                <button id="reset">Reset Game</button>
-            </div>
-        </div>
-    </div>
-</main>
+    </main>
 
-
-   
-   
-   
-    <div>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li> <a href="http://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a> </li>
-        </ul>
-    </div>
-   
     <!-- Connect to JS file -->
     <script src="assets/js/script.js"></script>
-
+    <script src="assets/js/questions.json" 
+    
 </body>
-
 </html>

@@ -1,6 +1,6 @@
 //Select elements
 const counterSpan = document.querySelector('.counter span');
-const divFlagImg = document.querySelector ('flag-img');
+const divFlagImg = document.querySelector ('.flag-img');
 const flagImg = document.querySelector ('.flag-img img');
 const options = document.querySelector ('.options ul');
 const flagList = document.querySelectorAll('.options ul li');
