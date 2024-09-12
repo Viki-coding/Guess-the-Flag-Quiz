@@ -35,16 +35,19 @@ function retrieveQuestions() {
                     //automatically check answer after 5000 miliseconds
                     setTimeout(() => {
                         checkAns(rightAns, qCount);
-                    }.5000);
+                    }, 5000);
 
                     setTimeout(() => {
                         //remove previous flag
                         flagImg.src = '';
                         //remove all classes (active, incorrect, correct)
                         li.classList.remove('active');
-                        li.classList.remove('sucess');
+                        li.classList.remove('success');
                         li.classList.remove('wrong');
-                    })
+
+                        //Add question data info to show next question
+                        addQuestionInfo(questions[currentIndex], qCount);
+                    }, 1000);
                 })
             })
         }
