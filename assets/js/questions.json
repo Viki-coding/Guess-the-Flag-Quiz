@@ -9,7 +9,7 @@
         "correct_answer": "Australia"
     },
     {
-        "img": "Iceland.webp",
+        "img": "iceland.webp",
         "option": [
             "Iceland",
             "Chile",
@@ -18,7 +18,7 @@
         "correct_answer": "Iceland"
     },
     {
-        "img": "India.webp",
+        "img": "india.webp",
         "option": [
             "Bulgaria",
             "India",
@@ -27,7 +27,7 @@
         "correct_answer": "India"
     },
     {
-        "img": "Ireland.webp",
+        "img": "ireland.webp",
         "option": [
             "India",
             "Chad",
@@ -36,7 +36,7 @@
         "correct_answer": "Ireland"
     },
     {
-        "img": "Jamaica.webp",
+        "img": "jamaica.webp",
         "option": [
             "Jamaica",
             "Mali",
@@ -54,7 +54,7 @@
         "correct_answer": "New Zealand"
     },
     {
-        "img": "Palestine.webp",
+        "img": "palestine.webp",
         "option": [
             "Portual",
             "Romania",
@@ -63,7 +63,7 @@
         "correct_answer": "Palestine"
     },
     {
-        "img": "Romania.webp",
+        "img": "romania.webp",
         "option": [
             "Norway",
             "Poland",
