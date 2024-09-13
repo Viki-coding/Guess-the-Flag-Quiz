@@ -61,7 +61,7 @@ function retrieveQuestions() {
             });
         }
     }
-    questionRequest.open("GET", "/assets/js/questions.json", true);
+    questionRequest.open("GET", "assets/js/questions.json", true);
     questionRequest.send();
     questionNumber(5);
 }
@@ -76,7 +76,7 @@ function questionNumber(num) {
 /** Function to populate flag images and questions options */
 function addQuestionInfo(obj, counterSpan) {
     if(currentIndex < counterSpan){
-        flagImg.src=`/assets/images/flags/${obj.img}`;  
+        flagImg.src=`assets/images/flags/${obj.img}`;  
         //Create options
         flagList.forEach((li, i)=>{
         //give each li a dynamic id
