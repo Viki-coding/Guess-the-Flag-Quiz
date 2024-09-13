@@ -9,7 +9,7 @@ const scoreDiv = document.querySelector('.scoreboard');
 const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
-const instructions = document.querySelector('h3 .instructions');
+const instructions = document.querySelector('.instructions');
 
 
 let currentIndex = 0;
@@ -95,7 +95,7 @@ function checkAns(rAnswer, counterSpan) {
         if(flagList[i].classList.contains('active')){
             chosenAns = flagList[i].dataset.answer;
             if(rAnswer === chosenAns){
-                flagList[i].classList.add('sucess');
+                flagList[i].classList.add('success');
                 rightAns++;
                 score.innerHTML = rightAns++;
             }else{
