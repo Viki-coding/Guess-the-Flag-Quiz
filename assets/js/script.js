@@ -58,7 +58,7 @@ function retrieveQuestions() {
                         displayResults(qCount);
                     }, 1002);
                 });
-            })
+            });
         }
     }
     questionRequest.open("GET", "/assets/js/questions.json", true);
@@ -97,7 +97,7 @@ function checkAns(rAnswer, counterSpan) {
             if(rAnswer === chosenAns){
                 flagList[i].classList.add('success');
                 rightAns++;
-                score.innerHTML = rightAns++;
+                score.innerHTML = rightAns;
             }else{
                 flagList[i].classList.add('wrong');
             }
@@ -106,14 +106,14 @@ function checkAns(rAnswer, counterSpan) {
 }
 
 //Function to display results
-function displayResults(count){
-    if(currentIndex === count) {
+function displayResults(counter){
+    if(currentIndex === counter) {
         options.innerHTML = '';
         divFlagImg.innerHTML = '';
         instructions.display = 'none';
-        scoreDiv.computedStyleMap.display = 'block';
+        scoreDiv.style.display = 'block';
         correctAnswer.innerHTML = rightAns;
-        incorrectAnswer.innerHTML = count - rightAns;
+        incorrectAnswer.innerHTML = counter - rightAns;
     }
 }
 
