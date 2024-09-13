@@ -63,6 +63,7 @@ function retrieveQuestions() {
     }
     questionRequest.open("GET", "/assets/js/questions.json", true);
     questionRequest.send();
+    questionNumber(5);
 }
 
 retrieveQuestions();

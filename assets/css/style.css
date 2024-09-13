@@ -154,7 +154,7 @@ h3 {
 }
 
 .scoreboard {
-    display: block;
+    display: none;
     padding: 1.5rem;
     border-radius: .8rem;
 }
