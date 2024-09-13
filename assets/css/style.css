@@ -6,13 +6,22 @@
     box-sizing: border-box;
     outline: none;
     text-align: center;
+    color: #310a31;
 }
+
+/* colors
+#310A31 purple
+#F2C14E saffron
+#86A59C cambridge blockquote
+#246300 moss green
+#F1E3F3 pale pur */
 
 body {
     background: url(/assets/images/green-globe.webp);
     background-size:auto;
     background-position: center;
     min-height: 100;
+    background-color:#f1e3f3;
 }
 
 html {
@@ -33,23 +42,23 @@ a {
 h1 {
     text-align: center;
     font-size: 2.5rem;
-    color: blueviolet;
+    color: 310a31;
     padding: 2rem 0;
 }
 
 h3 {
     font-size: 2rem;
     padding: 2rem 0;
-    color: blueviolet;
+    color: #310a31;
     padding: 2rem 0;
 }
 
 .container {
-    background: #f3af19;
+    background: #86a59c;
     padding: 30px;
     margin: 100px auto 0;
     border-radius: 5%;
-    color: white;
+    color: #310A31;
     width: 90%;
     max-width: 600px;
 }
@@ -64,7 +73,7 @@ h3 {
 .box .counter {
     font-size: 2rem;
     font-weight: 650;
-    color: blueviolet;
+    color: #00020A;
     padding: 2rem;
 }
 
@@ -75,7 +84,6 @@ h3 {
     padding: 2rem 2rem;
     justify-content: center;
     align-items: center;
-   
 }
 
 .flag .flag-img {
@@ -116,10 +124,10 @@ h3 {
     background-color: white;
     padding: 1.5rem;
     width: 200px;
-    color: #9d4dbb;
+    color: #310a31;
     border-radius: 8px;
     cursor: pointer;
-    border: 5px solid #4c51f7;
+    border: 5px solid #246300;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -131,10 +139,10 @@ h3 {
 }
 
 #reset {
-    border: 5px solid #9d4dbb;
-    background-color: #f3af19;
+    border: 5px solid #246300;
+    background-color: #F2c14E;
     padding: 1.3rem;
-    color: white;
+    color: 310A31;
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 600;
@@ -149,11 +157,11 @@ h3 {
 
 .scoreboard .correct, 
 .scoreboard .incorrect {
-    color: aliceblue;
+    color: #00020A;
 }
 
 .flags .options ul li.active {
-    background-color: #4c51f7;
+    background-color: #f1e3f3;
     color: aliceblue;
 }
 
