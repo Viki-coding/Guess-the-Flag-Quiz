@@ -44,6 +44,10 @@ a {
     text-decoration: none;
 }
 
+.instructions {
+    display: block;
+}
+
 h1 {
     text-align: center;
     font-size: 2.5rem;
