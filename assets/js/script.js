@@ -22,7 +22,7 @@ function retrieveQuestions() {
         if (this.readyState === 4 && this.status === 200) {
             let questions = JSON.parse(this.responseText);
             //number of questions per game
-            let qCount = 10;
+            let qCount = 5;
             questionNumber(qCount);
             //Select random flags/answers for each game
             questions = questions.sort(() => Math.random() - Math.random()).slice(0, 10);
