@@ -26,7 +26,7 @@
 #F1E3F3 pale pur */
 
 body {
-    background: url=("assets/images/logo.webp");
+    background-image: url=("assets/images/green-globe.webp"); 
     background-size:auto;
     background-position: center;
     min-height: 100;
