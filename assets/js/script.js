@@ -9,7 +9,7 @@ const scoreDiv = document.querySelector('.scoreboard');
 const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
-const instructions = document.querySelector('.instructions');
+const instructions = document.getElementsByClassName('.instructions');
 
 
 let currentIndex = 0;
