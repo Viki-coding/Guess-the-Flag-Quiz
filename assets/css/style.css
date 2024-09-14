@@ -67,13 +67,15 @@ h3 {
 }
 
 .container {
-    background: #86a59c;
+    background-color: rgba(134, 165, 156, .5);
     padding: 30px;
     margin: 100px auto 0;
     border-radius: 5%;
     color: #310A31;
     width: 90%;
     max-width: 600px;
+    border-style: double;
+    border: 5px solid #246300; 
 }
 
 .box {
