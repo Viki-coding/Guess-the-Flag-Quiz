@@ -1,3 +1,5 @@
+//Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game. Link in README//
+
 //Select elements
 const counterSpan = document.querySelector('.counter span');
 const divFlagImg = document.querySelector ('.flag-img');
