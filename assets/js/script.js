@@ -2,9 +2,9 @@
 
 //Select elements
 const counterSpan = document.querySelector('.counter span');
-const divFlagImg = document.querySelector ('.flag-img');
-const flagImg = document.querySelector ('.flag-img img');
-const options = document.querySelector ('.options ul');
+const divFlagImg = document.querySelector('.flag-img');
+const flagImg = document.querySelector('.flag-img img');
+const options = document.querySelector('.options ul');
 const flagList = document.querySelectorAll('.options ul li');
 const score = document.querySelector('h3 span');
 const scoreDiv = document.querySelector('.scoreboard');
@@ -13,24 +13,20 @@ const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
 const instructions = document.querySelector('.instructions');
 
-// import JSConfetti from 'js-confetti'
-// const jsConfetti = new JSConfetti()
-
-// jsConfetti.addConfetti()
 
 let currentIndex = 0;
 let rightAns = 0;
 
+
 function toggle() {
     let instructionsBox = document.getElementById("instructionsBox");
-        if (instructionsBox.style.display === "none"){
-            instructionsBox.style.display = "block";
-        }
-        else {
-            instructionsBox.style. display = "none";
-        }
+    if (instructionsBox.style.display === "none") {
+        instructionsBox.style.display = "block";
+    } else {
+        instructionsBox.style.display = "none";
     }
-    
+}
+
 
 /** Add function to retrieve questions from our questions.json file */
 function retrieveQuestions() {
@@ -52,6 +48,7 @@ function retrieveQuestions() {
                     li.classList.add('active');
                     //Increase index
                     currentIndex++;
+                    questionNumber(5);
 
                     //once answer is checked move automatically move to next question after 500 miliseconds
                     setTimeout(() => {
@@ -87,21 +84,21 @@ retrieveQuestions();
 
 /** Add function to count number of questions and insert in counter span */
 function questionNumber(num) {
-    counterSpan.innerHTML = num;
+    counterSpan.innerHTML = `${currentIndex+1} of ${num}`;
 }
 
 /** Function to populate flag images and questions options */
 function addQuestionInfo(obj, counterSpan) {
-    if(currentIndex < counterSpan){
-        flagImg.src=`assets/images/flags/${obj.img}`;  
+    if (currentIndex < counterSpan) {
+        flagImg.src = `assets/images/flags/${obj.img}`;
         //Create options
-        flagList.forEach((li, i)=>{
-        //give each li a dynamic id
-        li.id = `answer_${i+1}`;
-        //create dynamic data attribute for each li
-        li.dataset.answer=obj[`option`][i];
-        //insert the option in the li
-        li.innerHTML = obj[`option`][i];
+        flagList.forEach((li, i) => {
+            //give each li a dynamic id
+            li.id = `answer_${i+1}`;
+            //create dynamic data attribute for each li
+            li.dataset.answer = obj[`option`][i];
+            //insert the option in the li
+            li.innerHTML = obj[`option`][i];
         });
     }
 }
@@ -109,14 +106,14 @@ function addQuestionInfo(obj, counterSpan) {
 /** Function to check if answer is correct or incorrect */
 function checkAns(rAnswer, counterSpan) {
     let chosenAns;
-    for (let i = 0; i < flagList.length; i++){
-        if(flagList[i].classList.contains('active')){
+    for (let i = 0; i < flagList.length; i++) {
+        if (flagList[i].classList.contains('active')) {
             chosenAns = flagList[i].dataset.answer;
-            if(rAnswer === chosenAns){
+            if (rAnswer === chosenAns) {
                 flagList[i].classList.add('success');
                 rightAns++;
                 score.innerHTML = rightAns;
-            }else{
+            } else {
                 flagList[i].classList.add('wrong');
             }
         }
@@ -124,8 +121,8 @@ function checkAns(rAnswer, counterSpan) {
 }
 
 //Function to display results
-function displayResults(counter){
-    if(currentIndex === counter) {
+function displayResults(counter) {
+    if (currentIndex === counter) {
         options.innerHTML = '';
         divFlagImg.innerHTML = '';
         instructions.style.display = 'none';
