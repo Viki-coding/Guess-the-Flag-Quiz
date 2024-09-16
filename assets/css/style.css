@@ -14,12 +14,6 @@
     align-items: center;
     width: 35%;
 }
-/* colors
-#310A31 purple
-#F2C14E saffron
-#86A59C cambridge blockquote
-#246300 moss green
-#F1E3F3 pale pur */
 
 body {
     background-image: url("../images/green-globe.webp"); 
@@ -163,13 +157,6 @@ h3 {
     }
 }
 
-/* .flags .options ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-} */
-
 .flags .options ul li {
     font-size: 2rem;
     font-weight: 600;
@@ -185,11 +172,6 @@ h3 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/* create a hover effect when going over potential answers, & no hover once answer selectd, re-created from W3 schools*/
-/* .options:hover {
-    color: pink;
-    font-size: larger;
-} */
 
 #reset {
     border: 5px solid #246300;

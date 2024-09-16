@@ -17,7 +17,7 @@ const instructions = document.querySelector('.instructions');
 let currentIndex = 0;
 let rightAns = 0;
 
-
+/** Add function to display Instructions button and when clicked displays instructions, when button clicked again toggles back to button */
 function toggle() {
     let instructionsBox = document.getElementById("instructionsBox");
     if (instructionsBox.style.display === "none") {
