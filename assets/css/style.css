@@ -67,6 +67,10 @@ a {
     letter-spacing: .1rem;
 }
 
+#instructions-btn:hover {
+    font-size: 2rem;
+  }
+
 #instructionsBox {
     display: none;
     line-height: 1.5;

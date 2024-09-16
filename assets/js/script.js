@@ -13,10 +13,10 @@ const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
 const instructions = document.querySelector('.instructions');
 
-import JSConfetti from 'js-confetti'
-const jsConfetti = new JSConfetti()
+// import JSConfetti from 'js-confetti'
+// const jsConfetti = new JSConfetti()
 
-jsConfetti.addConfetti()
+// jsConfetti.addConfetti()
 
 let currentIndex = 0;
 let rightAns = 0;
