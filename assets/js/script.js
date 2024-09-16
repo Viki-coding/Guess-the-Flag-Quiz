@@ -11,25 +11,18 @@ const scoreDiv = document.querySelector('.scoreboard');
 const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
-// const instructionsBtn = document.getElementById('instructions-Btn');
-// const instructionsBox = document.getElementsById('instructionsBox');
-
+const instructions = document.querySelector('.instructions');
 
 let currentIndex = 0;
 let rightAns = 0;
 
-// Add event listener when user clicks on instructions button/
-// instructionsBtn.addEventListener("click", event => {
-//     instructionsBox.innerHTML = "LOOK at the flag & CLICK your guess!";
-// });
-
 function toggle() {
-    let instructions = document.getElementById("instructionsBox");
-        if (instructions.style.display === "none"){
-            instructions.style.display = "block"
+    let instructionsBox = document.getElementById("instructionsBox");
+        if (instructionsBox.style.display === "none"){
+            instructionsBox.style.display = "block"
         }
         else {
-            instructions.style. display = "none";
+            instructionsBox.style. display = "none";
         }
     }
     
@@ -130,7 +123,7 @@ function displayResults(counter){
     if(currentIndex === counter) {
         options.innerHTML = '';
         divFlagImg.innerHTML = '';
-        // instructions.display = 'none';
+        instructions.style.display = 'none';
         scoreDiv.style.display = 'block';
         correctAnswer.innerHTML = rightAns;
         incorrectAnswer.innerHTML = counter - rightAns;

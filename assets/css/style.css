@@ -52,6 +52,10 @@ a {
     display: none;
 }
 
+.instuctions{
+    display: block;
+}
+
 #instructions-btn {
     border: 5px solid #246300;
     background-color: #F2c14E;
