@@ -39,8 +39,8 @@
             <img id="logo" src="assets/images/logo.webp" alt="world image surrounded by Flags of the World Quiz text">
             <div class="instructions">
                  <!-- toggle button interpreted code from W3 schools (README has link)-->
-                <button onclick="toggle()" id="instructions-btn">INSTRUCTIONS</button>
-                <div id = "instructionsBox"><p>Can you guess these 5 flags?</p><br><p>LOOK at the flag - CLICK on your guess!</p><br><p>Box displays GREEN if you are correct</p><br><p>Box displays RED if you are incorrect</p></div>
+                <button onclick="toggle()" id="instructions-btn" aria-label="click to reveal instructions">INSTRUCTIONS</button>
+                <div id = "instructionsBox" aria-label="list of instruction"><p>Can you guess these 5 flags?</p><br><p>LOOK at the flag - CLICK on your guess!</p><br><p>Box displays GREEN if you are correct</p><br><p>Box displays RED if you are incorrect</p></div>
             
                 <div class="box">
                 <h3>Correct Scores: <span></span></h3>
@@ -59,8 +59,8 @@
                     </ul>
                 </div>
                 <div class="scoreboard">
-                    <h3 class="correct">Correct Answers: <span></span></h3>
-                    <h3 class="incorrect">Incorrect Answers: <span></span></h3>
+                    <h3 class="correct" aria-label="correct score">Correct Answers: <span></span></h3>
+                    <h3 class="incorrect" aria-label="incorrect score">Incorrect Answers: <span></span></h3>
                     <button id="reset" aria-label="this button resets the game">RESET GAME</button>
                 </div>
             </div>
