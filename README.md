@@ -103,6 +103,7 @@ Aria labels used to describe the content for screen readers and other accessibil
 HTML and CSS and JS
 
 <h2>Frameworks, Libraries and Programs Used: </h2>
+
 * Balsamiq Wireframes - used to create wireframes
 * Git - version control
 * Git Pod
@@ -116,7 +117,7 @@ HTML and CSS and JS
 * Am I Responsive - quick tool to check how responsiveness on various devices and creates display
 * Responsive tool - https://responsivetesttool.com/
 * JSHint to check JS code
-
+* 
 <h2>Manual Testing</h2>
 We performed manual testing on the site and also ran our html, css and js codes through validators.
 
