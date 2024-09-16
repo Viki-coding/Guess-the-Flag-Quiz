@@ -1,36 +1,41 @@
-FLAGS OF THE WORLD QUIX
-Introduction
+
+<img width="545" alt="Screenshot 2024-09-16 at 19 03 10" src="https://github.com/user-attachments/assets/0220dfd8-ca52-4091-b886-41042759fbdd">
+
+
+
+<h1>FLAGS OF THE WORLD QUIZ</h1>
+<h2>Introduction</h2>
 This quiz is a fun, educational easy to use quiz.  It tests the user on their knowledge of flags from across the globe. 
 
-Description - Project Purpose
+<h2>Description - Project Purpose</h2>
 The game is designed to give the user a fun interactive method to test their knowledge on flags and learn some new flags from countries across the world.
 
-User Demographics - Target audience
+<h2>User Demographics - Target audience</h2>
 The target audience spans various ages and users, helping kids get to know their flags and testing adults on how many flags they really know.  A countries flag demonstrates strong emotive feelings and it is important to have respect for everyone’s background and heritage. Many younger people watching the Olympics saw how proud participating nations are when their athletic takes part and the use of supportive flags on victory laps and the rising of an athletics flag during a medal presentation demonstrates how important the meaning of flags are to a nation and their people.  This quiz aims at being a fun interactive quiz within a family setting and at school.
 
-UX
+<h2>UX</h2>
 Site Goals: First Time users will find the site intuitive and easy to navigate. The site provides the user with what they expect:
 
-Instructions of how to play
-Prompt the player on a clicking an answer
-Immediate feedback of whether an answer is correct or not.
-A tally of the score as they progress
-Provide a final tally of score.
-Provide the opportunity to reset the game to have another go. 
+* Instructions of how to play
+* Prompt the player on a clicking an answer
+* Immediate feedback of whether an answer is correct or not.
+* A tally of the score as they progress
+* Provide a final tally of score.
+* Provide the opportunity to reset the game to have another go. 
 
-USER STORIES
+<h2>USER STORIES</h2>
 As a user I want to log into the game easily and view what I need to do easily and quickly without having to signup.  As a user I want to visually see the flags and answers clearly, to understand that the mouse cursor changes when I hover over and answer giving me feedback that I need to click on my guess.  As a user when I click I want to get an indicating if my choice has registered by changing colour and I want instant feedback whether my chosen guess is correct or not.  As a user I would like to see my correct scores tally up.  As a user I would like the quiz to be fun, interactive, challenging and quick.  As a user I would like to play this game with friends and family to compare scores with each other to have some fun. 
 
-Design Choices
+<h2>Design Choices</h2>
 Colour Scheme
 This is a fun, relaxing game for all the family, we choose calming green and pastel shades, we kept the design clean and uncluttered making it easy in intuitive to navigate. 
 
 Using a colour contrast checked we checked which font colours stood out best against our base colours.  All receiving good ratings. Graphic illustrated below:
 
-Typography
+<h2>Typography</h2>
 We used the font Comic Neue which use a Sans Serif which is good for accessibility and is a dyslexia friendly font. We feel it looks fun and is clear and easy to read and add a sense of fun to the quiz.
 
-Wireframes
+<h2>Wireframes</h2>
 We created a wireframe using Balsamiq to plan out the structure and style of the app. We spoke with some potential users of the game during the testing phase to gain their insight and views. This was the beginning of our design journey, as we progressed with the design we made some changes to the actual page. During this planning phase we researched the fonts and background colours and text colours that would be most suitable and gained user feedback.
 
 Picture below of WIREFRAMES
@@ -40,92 +45,95 @@ Quiz Area
 End Game & Results Area
 
 
-Quiz Area
+<h1>QUIZ AREA</h1>
 The quiz area display the number of questions in the quiz and keeps a  tally of correct scores as you progress through the game. 
 **Picture below
 <img width="1187" alt="Screenshot 2024-09-16 at 15 10 47" src="https://github.com/user-attachments/assets/7a11e7ee-f66f-4887-8f38-110247663953">
 
-FEATURES
+<h3>Features</h3>
+<h3>Instructions</h3>
 
-The Instructions Area is a nice clear, easy to read set of instructions. 
-<img width="996" alt="Screenshot 2024-09-16 at 15 10 56" src="https://github.com/user-attachments/assets/858dc2d1-4e17-4125-9c40-c60dfa2fcdbb">
-
-
-<img width="1150" alt="Screenshot 2024-09-16 at 15 11 07" src="https://github.com/user-attachments/assets/166f8dd1-e6ae-461f-a98f-7d94a3abd6a8">
-
-
-<img width="1175" alt="Screenshot 2024-09-16 at 15 11 42" src="https://github.com/user-attachments/assets/93372ab6-c503-43ae-87fd-ee05248584ad">
+<b>The Instructions Area is a nice clear, easy to read set of instructions.</b>
+ 
+<img width="500" alt="Screenshot 2024-09-16 at 15 10 56" src="https://github.com/user-attachments/assets/858dc2d1-4e17-4125-9c40-c60dfa2fcdbb">
 
 
+<img width="500" alt="Screenshot 2024-09-16 at 15 11 07" src="https://github.com/user-attachments/assets/166f8dd1-e6ae-461f-a98f-7d94a3abd6a8">
+
+<h3>RESULTS AREA</h3>
+
+<img width="900" alt="Screenshot 2024-09-16 at 15 11 42" src="https://github.com/user-attachments/assets/93372ab6-c503-43ae-87fd-ee05248584ad">
 
 
-Interaction Points
+
+
+<h2>Interaction Points</h2>
 The user interacts with the quiz by visually looking at the flag, using their mouse the cursor changes to a hand when hovering over the potential answers giving them the feedback to choose one.  Once an answer is clicked the user gets feedback with a colour change that it is selected and then another colour change to let them know if the answer is right(green) or wrong (red). Then the next flag and answer options are introduced to keep a nice steady pace on the game. At the end of the quiz the users score is displayed with their incorrect/correct results and the user can click on the RESET button to load the quiz again. 
 
-Future Implementation Section
+<h2>Future Implementation Section</h2>
 * A drag and drop of the flag to the correct box would be fun to create and a nice user experience to keep them engaged.
 * Have a larger section of flags from world using an API database.
 * Have different choices of flags to choose from, European, Asia etc.
 * Have different levels of difficulty.
 
 
-Accessibility
+<h2>Accessibility</h2>
 Aria labels used to describe the content for screen readers and other accessibility tools. Colours are suitable for people who are colour blind and sans serif text suitable for people with dyslexia. We used coolers to ensure our background and contrast colours worked efficiently and clearly. After running our deployed site in incognito mode using Lighthouse we identified ?????
 
 
 <img width="1399" alt="Screenshot 2024-09-16 at 17 21 19" src="https://github.com/user-attachments/assets/6e738e76-1ac6-406e-bf99-f05ee69d67d2">
 
 
-Technologies Used
+<h2>Technologies Used</h2>
 HTML and CSS and JS
 
-Frameworks, Libraries and Programs Used
-Balsamiq Wireframes - used to create wireframes
-Git - version control
-Git Pod
-Git Hub - To save and store the files for the website
-Google Fonts - to import fonts onto the website
-Font Awesome for iconography on website
-Favicon.io - to create favicon
-Coolors - checking colour pallets and their contrast abilities with fonts.
-Berme.net - to reduce image sizes and convert to .webp
-Canva - to create logo image
+<h2>Frameworks, Libraries and Programs Used: </h2>
+* Balsamiq Wireframes - used to create wireframes
+* Git - version control
+* Git Pod
+* Git Hub - To save and store the files for the website
+* Google Fonts - to import fonts onto the website
+* Font Awesome for iconography on website
+* Favicon.io - to create favicon
+* Coolors - checking colour pallets and their contrast abilities with fonts.
+* Berme.net - to reduce image sizes and convert to .webp
+* Canva - to create logo image
 
-Manual Testing
+<h2>Manual Testing</h2>
 We performed manual testing on the site and also ran our html, css and js codes through validators.
 
-W3C Validator
+<h3>W3C Validator</h3>
 HTML code on all pages passes through the official W3C validator with no issues.
-HOME Page - 3C Validator Test:
+
+<u>QUIZ Page - 3C Validator Test:</u>
 
 <img width="801" alt="Screenshot 2024-09-16 at 17 41 34" src="https://github.com/user-attachments/assets/8bced427-c61d-4b11-8e28-c6756372eba7">
 
-CSS (Jigsaw) validator
+<h3> CSS (Jigsaw) validator</h3>
 CSS code passes through the official (Jigsaw) validator with no issues
 
 ![Screenshot 2024-09-16 at 18 03 34](https://github.com/user-attachments/assets/b91cb3c2-d81b-491b-9b7f-d6366e8a5f1c)
 
 
 
-
-
-
-
-JavaScript Code 
+<h2>JavaScript Code Validator</h2>
 We analysed the code with DeepScan and with JSHint which found no warnings. 
 
 ![Screenshot 2024-09-16 at 17 27 50](https://github.com/user-attachments/assets/b9ca1a43-95d3-4fbf-adc4-12b1fad46c03)
 
-Deepscan to analyse the javascript. 
+Deepscan to analyse the javascript that showed no warnings or errors. 
 
 [![DeepScan grade](https://deepscan.io/api/teams/24765/projects/27981/branches/896436/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=24765&pid=27981&bid=896436)
 
+<h2> JSON formatter and Validator</h2>
 We used JSON formatter and Validator to check the quiz question file.
 ![Screenshot 2024-09-16 at 18 12 18](https://github.com/user-attachments/assets/f5227238-00a4-45d7-88da-acfc793edafd)
-Quality Assurance
+
+<h2>Quality Assurance</h2>
 We took a systematic and structural approach to manually test each page to ensure it functions correctly and to help identify potential bugs. We created a specific testing template to ensure and re-check all pages were working correctly as specified with expected and actual outcomes using a methodical approach.
 
-Test Evaluation Sheet:
+<h3>Test Evaluation Sheet:</h3>
+As shown in the evaluation sheet below we navigated around our site and tested all available options to ensure they were working as intended.
 
 | QUIZ PAGE          |    | Feature                                                                                                                                             | Test Performed                                                                                                        | Expected Outcome                                                                                                                    | Pass / Fail |
 | ------------------ | -- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------- |
@@ -150,23 +158,30 @@ Test Evaluation Sheet:
 | Spelling / Grammer | 18 | QUIZ Game Page                                                                                                                                      | Text checked for spelling on ABC Webpage Spell-check                                                                  | No incorrect spellings                                                                                                              | TRUE        |
 |                    | 19 | Score Page                                                                                                                                          | Text checked for spelling on ABC Webpage Spell-check                                                                  | No incorrect spellings                                                                                                              | TRUE        |
 |                    | 20 | READ.me                                                                                                                                             | Text checked for spelling                                                                                             | No incorrect spellings                                                                                                              | TRUE        |
-As shown in the evaluation sheet above we navigated around our site and tested all available options to ensure they were working as intended.
 
-Lighthouse Testing
+
+
+<h2>Lighthouse Testing</h2>
 Incognito lighthouse testing was completed on all pages with excellent results ensuring optimal page loading times:
+<u>Quiz Page - Lighthouse Testing:</u>
 
-Quiz Page - Lighthouse Testing
-Results Page - Lighthouse Testing
-
-BUGS
-Solved Bugs
+<img width="1399" alt="Screenshot 2024-09-16 at 17 21 19" src="https://github.com/user-attachments/assets/8d787df4-63ed-4f78-8f00-3e615d6434d5">
 
 
 
-User Experience Assurance
+
+<u>Results Page - Lighthouse Testing:</u>
+
+
+<h2>BUGS</h2>
+<u>Solved Bugs</u>
+
+
+
+<h2>User Experience Assurance</h2>
 We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each page has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a Samsung Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
 
-Deployment Steps
+<h2>Deployment Steps</h2>
 * The site is Deployed using GitHub Pages
 * Login to GitHub
 * Go to the projects repository (https://viki-coding.github.io/Guess-the-Flag-Quiz/)
@@ -177,19 +192,19 @@ Deployment Steps
 * The site is now deployed but may take a few minutes to go live.
 * Return to CODE tab of Github repo and wait a few minutes for build to finish, refresh page. This will show on GitHub-pages to see active deployments.
 
-How to Fork
+<h2>How to Fork</h2>
 * Login to Github
 * Go to Project repository
 * Click the FORK button top right corner
 
-How to Clone
+<h2>How to Clone</h2>
 * Log into Github
 * Go to project repository
 * Click on the code button, select what want to clone HTTPS, SSH or GitHub CLI and copy the link.
 * Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
 * Copy 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
   
-Acknowledging Contributions & Credits
+<h2>Acknowledging Contributions & Credits</h2>
 * We gained inspiration from these tutorial videos on youtube: https://www.youtube.com/watch?v=MkvHPOT4RS8
 * How to HIDE and SHOW HTML using JavaScript https://www.youtube.com/watch?v=-oQnDrNzTTA.
 * Hide and Show div using JavaScript | On Click Hide and Show Div[HowToCode School.com]
@@ -209,11 +224,12 @@ Image of logo created in Canva using canva template.
 
 We gained some inspiration from the CI instruction videos for the 'Love Maths' site.
 
-We got help with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks our very supportive and positive facilitator Laura Maycock and our new facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
+We gained inspiration with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks our very supportive and positive facilitator Laura Maycock and our new facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
 
-CONTENT The content text for Flags of the World quiz is written by Viki Mulhall. 
+<h2>CONTENT</h2>
+The content text for Flags of the World quiz is written by Viki Mulhall. 
 
-Legal & Ethical Compliance
+<h2>Legal & Ethical Compliance</h2>
 This project is for educational purposes only.
 ![image](https://github.com/user-attachments/assets/97c93dcc-7b09-4daf-baa6-bc20fb2c4f66)
 ![image](https://github.com/user-attachments/assets/97c93dcc-7b09-4daf-baa6-bc20fb2c4f66)
