@@ -14,7 +14,6 @@ const btnReset = document.querySelector('#reset');
 const instructions = document.querySelector('.instructions');
 
 import JSConfetti from 'js-confetti'
-
 const jsConfetti = new JSConfetti()
 
 jsConfetti.addConfetti()
@@ -135,6 +134,7 @@ function displayResults(counter){
         incorrectAnswer.innerHTML = counter - rightAns;
     }
 }
+
 
 //Reset new game
 btnReset.addEventListener('click', () => {
