@@ -38,14 +38,20 @@
         <div class="container">
             <img id="logo" src="assets/images/logo.webp" alt="world image surrounded by Flags of the World Quiz text">
             <div class="instructions">
-                 <!-- toggle button interpreted code from W3 schools (README has link)-->
-                <button onclick="toggle()" id="instructions-btn" aria-label="click to reveal instructions">INSTRUCTIONS</button>
-                <div id = "instructionsBox" aria-label="list of instruction"><p>Can you guess these 5 flags?</p><br><p>LOOK at the flag - CLICK on your guess!</p><br><p>Box displays <mark id="green"> GREEN </mark>if you are correct</p><br><p>Box displays <mark id = "red" >RED </mark> if you are incorrect</p></div>
-            
+                <!-- toggle button interpreted code from W3 schools (README has link)-->
+                <button onclick="toggle()" id="instructions-btn"
+                    aria-label="click to reveal instructions">INSTRUCTIONS</button>
+                <div id="instructionsBox" aria-label="list of instruction">
+                    <p>CAN YOU GUESS THESE 5 FLAGS?</p><br>
+                    <p>LOOK at the flag - CLICK on your guess!</p><br>
+                    <p>Box displays <mark id="green"> GREEN </mark>if you are correct</p><br>
+                    <p>Box displays <mark id="red">RED </mark> if you are incorrect</p>
+                </div>
+
                 <div class="box">
-                <h3>Correct Scores: <span></span></h3>
-                <div class="counter">No of Questions: <span></span></div>
-            </div>
+                    <h3>Correct Scores: <span></span></h3>
+                    <div class="counter">No of Questions: <span></span></div>
+                </div>
             </div>
             <div class="flags">
                 <div class="flag-img" aria-label="guess which flag" alt="guess which flag">
@@ -69,5 +75,8 @@
 
     <!-- Connect to JS file -->
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/questions.json" </body>
-        < /html>
+    <script src="assets/js/questions.json" 
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+</body>
+</html>
