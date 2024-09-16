@@ -42,10 +42,21 @@ End Game & Results Area
 FEATURES
 
 The Instructions Area is a nice clear, easy to read set of instructions. 
+<img width="996" alt="Screenshot 2024-09-16 at 15 10 56" src="https://github.com/user-attachments/assets/858dc2d1-4e17-4125-9c40-c60dfa2fcdbb">
+
+
+
+<img width="1150" alt="Screenshot 2024-09-16 at 15 11 07" src="https://github.com/user-attachments/assets/166f8dd1-e6ae-461f-a98f-7d94a3abd6a8">
+<img width="1150" alt="Screenshot 2024-09-16 at 15 11 07" src="https://github.com/user-attachments/assets/166f8dd1-e6ae-461f-a98f-7d94a3abd6a8">
 
 Quiz Area
 The quiz area display the numbner of questions in the quiz and keeps a  tally of correct scores as you progress through the game. 
 **Picture belows
+<img width="1187" alt="Screenshot 2024-09-16 at 15 10 47" src="https://github.com/user-attachments/assets/7a11e7ee-f66f-4887-8f38-110247663953">
+
+
+<img width="1175" alt="Screenshot 2024-09-16 at 15 11 42" src="https://github.com/user-attachments/assets/93372ab6-c503-43ae-87fd-ee05248584ad">
+
 
 
 
@@ -61,6 +72,10 @@ Future Implementation Section
 
 Accessibility
 Aria labels used to describe the content for screen readers and other accessibility tools. Colors are suitable for people who are color blind and sans serif text suitable for people with dyslexia. We used coolers to ensure our background and contrast colors worked efficiently and clearly. After running our deployed site in incognito mode using Lighthouse we identified ?????
+
+
+<img width="1399" alt="Screenshot 2024-09-16 at 17 21 19" src="https://github.com/user-attachments/assets/6e738e76-1ac6-406e-bf99-f05ee69d67d2">
+
 
 Technologies Used
 HTML and CSS and JS
@@ -93,6 +108,29 @@ We took a systematic and structural approach to manually test each page to ensur
 
 Test Evaluation Sheet:
 
+| QUIZ PAGE          |    | Feature                                                                                                                                             | Test Performed                                                                                                        | Expected Outcome                                                                                                                    | Pass / Fail |
+| ------------------ | -- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+|                    | 1  | Entice user to move over instructions button - enlarge text on hover & change cursor to hand.                                                       | Mouse passed over instructions button.                                                                                | Cursor changes from arrow to hand. Text enlarges within button when mouse hover over it.                                            | TRUE        |
+|                    | 2  | Instruction list expands when button is clicked                                                                                                     | Click on instruction button.                                                                                          |  When clicked, instructions expand.                                                                                                 | TRUE        |
+|                    | 3  | Instruction list shrinks when button is clicked                                                                                                     |  Instruction button clicked again.                                                                                    | When instruction button clicked again the list is hidden.                                                                           | TRUE        |
+|                    | 4  | Entice user to select a country by changing the mouse cursor to a hand                                                                              | Rest  mouse cursor over potential answers  and observe change of cursor.                                              | Mouse cursor changes from arrow to hand.                                                                                            | TRUE        |
+|                    | 5  | When answer is selected the box changes colour to show selection is registered.                                                                     | Click to select answer and observe colour of  selected button                                                         | Selected button changes colour from white to yellow.                                                                                | TRUE        |
+|                    | 6  | When answer is selected the box changes colour to show selection is registered and then either changes to red or green depending if correct or not. | An answer is selected to observe if the (a) The colour changes on selected (b) Colour changes to either red or green. | Answer selected, changed to yellow then changed to green as it was correct.                                                         | TRUE        |
+|                    | 7  | If answer is correct colour changes to green                                                                                                        | Click on a correct answer and observer colour                                                                         | Selected answer changes from yellow to green.                                                                                       | TRUE        |
+|                    | 8  | If answer is incorrect colour changes to red                                                                                                        | Click on an incorrect answer and observer colour                                                                      | Selected answer changes from yellow to red.                                                                                         | TRUE        |
+|                    | 9  | If answer is correct - it should add 1 to the Correct Scores area                                                                                   | Answer 3 questions correctly and 1 incorrectly                                                                        | Score board indicates I have 3 correct                                                                                              | TRUE        |
+|                    | 10 | No answers correct                                                                                                                                  | Answered all questions incorrectly and observe score area                                                             | Score board indicates null                                                                                                          | TRUE        |
+|                    | 11 | After 5 questions - score page should display score and rest button, but not instructions or running score area.                                    | Answer 5 questions and observe what screen is displayed                                                               | End of quiz with score results shown is displayed, instructions and running score are not displayed.                                | TRUE        |
+|                    | 12 | Check score counter is calculating correctly.                                                                                                       | Answer 5 questions correctly                                                                                          | Result is Correct Ans: 5 / Incorrect: 0                                                                                             | TRUE        |
+|                    | 13 |                                                                                                                                                     | Answer 5 questions incorrectly                                                                                        | Result is Correct Ans: 0 / Incorrect: 5                                                                                             | TRUE        |
+|                    | 14 |                                                                                                                                                     | Answer 2 questions correctly and 3 incorrectly                                                                        | Result is Correct Ans: 2/ Incorrect: 3                                                                                              | TRUE        |
+|                    | 15 |                                                                                                                                                     | Answer 1 questions correctly and 4 incorrectly                                                                        | Result is Correct Ans: 1/ Incorrect: 4                                                                                              | TRUE        |
+| GAME RESET         | 16 | Click on reset to reset game                                                                                                                        | Click on the reset button at the end of the quiz                                                                      | Quiz is re-set and starts again                                                                                                     | TRUE        |
+|                    | 17 | On reset - different flags in random order is displayed                                                                                             | Play game twice and document country flags displayed                                                                  | Game 1: India, Iceland, New Zealand, Romania, Palestine.   <br><br>Game 2: South Korea, Australia, Iceland, New Zealand, Palestine. | TRUE        |
+|                    |    |                                                                                                                                                     |                                                                                                                       |                                                                                                                                     |             |
+| Spelling / Grammer | 18 | QUIZ Game Page                                                                                                                                      | Text checked for spelling on ABC Webpage Spell-check                                                                  | No incorrect spellings                                                                                                              | TRUE        |
+|                    | 19 | Score Page                                                                                                                                          | Text checked for spelling on ABC Webpage Spell-check                                                                  | No incorrect spellings                                                                                                              | TRUE        |
+|                    | 20 | READ.me                                                                                                                                             | Text checked for spelling                                                                                             | No incorrect spellings                                                                                                              | TRUE        |
 As shown in the evaluation sheet above we navigated around our site and tested all available options to ensure they were working as intended.
 
 Lighthouse Testing
