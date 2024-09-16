@@ -95,6 +95,16 @@ h3 {
     padding: 2rem 0;
 }
 
+#green{
+    color: #246300;
+    background-color: #F2C14E;
+}
+
+#red{
+    color: red;
+    background-color: #F2C14E;
+}
+
 .container {
     background-color: rgba(134, 165, 156, .9);
     padding: 18px;
