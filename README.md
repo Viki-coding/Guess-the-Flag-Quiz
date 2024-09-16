@@ -141,6 +141,9 @@ Acknowledging Contributions & Credits
 * https://www.youtube.com/watch?v=JeXqaKeJSRI How to accept JavaScript USER INPUT in 5 minutes - Bro Code
 * https://www.youtube.com/watch?v=JeXqaKeJSRI Local Storage Explained in 10 min - ProMaker Dev
 * https://www.youtube.com/watch?v=QU6z69P5BrU interpreted how to the quiz choose random questions from the list.
+*  https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - code interpreted from W3 schools for instrutions button to tottle and display instructions. 
+* https://www.youtube.com/watch?v=g_vXSKbfUiQ 'Learn JavaScript MOUSE EVENTS in 10 minutes!'
+* https://www.youtube.com/watch?v=GfRgpXvqudM&t=23s 'How to create flag quiz game using html css and javascript | Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game. 
 
 Image by of Green Globes in background by Clker-Free-Vector-Images from Pixabay
 Flag images from pixabay
