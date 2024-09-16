@@ -36,7 +36,7 @@ body {
 html {
     font-size: 60%;
     font-weight: 400;
-    line-height: 1;
+    line-height: .5;
     scroll-behavior: smooth;
 }
 
@@ -48,7 +48,7 @@ a {
     text-decoration: none;
 }
 
-.instructions {
+#instructions {
     display: block;
 }
 
@@ -68,8 +68,8 @@ h3 {
 
 .container {
     background-color: rgba(134, 165, 156, .5);
-    padding: 30px;
-    margin: 100px auto 0;
+    padding: 20px;
+    margin: 30px auto 0;
     border-radius: 5%;
     color: #310A31;
     width: 90%;
