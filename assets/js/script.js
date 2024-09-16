@@ -9,11 +9,28 @@ const scoreDiv = document.querySelector('.scoreboard');
 const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
-// const instructions = document.getElementsById('.instructions');
+// const instructionsBtn = document.getElementById('instructions-Btn');
+// const instructionsBox = document.getElementsById('instructionsBox');
 
 
 let currentIndex = 0;
 let rightAns = 0;
+
+// Add event listener when user clicks on instructions button/
+// instructionsBtn.addEventListener("click", event => {
+//     instructionsBox.innerHTML = "LOOK at the flag & CLICK your guess!";
+// });
+
+function toggle() {
+    let instructions = document.getElementById("instructionsBox");
+        if (instructions.style.display === "none"){
+            instructions.style.display = "block"
+        }
+        else {
+            instructions.style. display = "none";
+        }
+    }
+    
 
 /** Add function to retrieve questions from our questions.json file */
 function retrieveQuestions() {
@@ -111,7 +128,7 @@ function displayResults(counter){
     if(currentIndex === counter) {
         options.innerHTML = '';
         divFlagImg.innerHTML = '';
-        instructions.display = 'none';
+        // instructions.display = 'none';
         scoreDiv.style.display = 'block';
         correctAnswer.innerHTML = rightAns;
         incorrectAnswer.innerHTML = counter - rightAns;

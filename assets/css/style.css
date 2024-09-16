@@ -48,7 +48,25 @@ a {
     text-decoration: none;
 }
 
-#instructions {
+.hide {
+    display: none;
+}
+
+#instructions-btn {
+    border: 5px solid #246300;
+    background-color: #F2c14E;
+    padding: 1.3rem;
+    color: 310A31;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+#instructionsBox {
+    display: none;
+    line-height: 1.5;
+    margin-top: 20px;
     border: 5px solid #246300;
     background-color: #F2c14E;
     padding: 1.3rem;
