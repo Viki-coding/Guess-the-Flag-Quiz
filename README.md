@@ -39,20 +39,19 @@ Instructions Area
 Quiz Area
 End Game & Results Area
 
+
+Quiz Area
+The quiz area display the numbner of questions in the quiz and keeps a  tally of correct scores as you progress through the game. 
+**Picture belows
+<img width="1187" alt="Screenshot 2024-09-16 at 15 10 47" src="https://github.com/user-attachments/assets/7a11e7ee-f66f-4887-8f38-110247663953">
+
 FEATURES
 
 The Instructions Area is a nice clear, easy to read set of instructions. 
 <img width="996" alt="Screenshot 2024-09-16 at 15 10 56" src="https://github.com/user-attachments/assets/858dc2d1-4e17-4125-9c40-c60dfa2fcdbb">
 
 
-
 <img width="1150" alt="Screenshot 2024-09-16 at 15 11 07" src="https://github.com/user-attachments/assets/166f8dd1-e6ae-461f-a98f-7d94a3abd6a8">
-<img width="1150" alt="Screenshot 2024-09-16 at 15 11 07" src="https://github.com/user-attachments/assets/166f8dd1-e6ae-461f-a98f-7d94a3abd6a8">
-
-Quiz Area
-The quiz area display the numbner of questions in the quiz and keeps a  tally of correct scores as you progress through the game. 
-**Picture belows
-<img width="1187" alt="Screenshot 2024-09-16 at 15 10 47" src="https://github.com/user-attachments/assets/7a11e7ee-f66f-4887-8f38-110247663953">
 
 
 <img width="1175" alt="Screenshot 2024-09-16 at 15 11 42" src="https://github.com/user-attachments/assets/93372ab6-c503-43ae-87fd-ee05248584ad">
@@ -99,10 +98,30 @@ W3C Validator
 HTML code on all pages passes through the official W3C validator with no issues.
 HOME Page - 3C Validator Test:
 
+<img width="801" alt="Screenshot 2024-09-16 at 17 41 34" src="https://github.com/user-attachments/assets/8bced427-c61d-4b11-8e28-c6756372eba7">
 
 CSS (Jigsaw) validator
 CSS code passes through the official (Jigsaw) validator with no issues
 
+![Screenshot 2024-09-16 at 18 03 34](https://github.com/user-attachments/assets/b91cb3c2-d81b-491b-9b7f-d6366e8a5f1c)
+
+
+
+
+
+
+
+Javascript Code 
+We analysed the code with DeepScan and with JSHint which found no warnings. 
+
+![Screenshot 2024-09-16 at 17 27 50](https://github.com/user-attachments/assets/b9ca1a43-95d3-4fbf-adc4-12b1fad46c03)
+
+Deepscan to analsyse the javascript. 
+
+[![DeepScan grade](https://deepscan.io/api/teams/24765/projects/27981/branches/896436/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=24765&pid=27981&bid=896436)
+
+We used JSON formatter and Valdator to check the quiz question file.
+![Screenshot 2024-09-16 at 18 12 18](https://github.com/user-attachments/assets/f5227238-00a4-45d7-88da-acfc793edafd)
 Quality Assurance
 We took a systematic and structural approach to manually test each page to ensure it functions correctly and to help identify potential bugs. We created a specific testing template to ensure and re-check all pages were working correctly as specified with expected and actual outcomes using a methodical approach.
 
@@ -181,7 +200,8 @@ Acknowledging Contributions & Credits
 * https://www.youtube.com/watch?v=QU6z69P5BrU interpreted how to the quiz choose random questions from the list.
 *  https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - code interpreted from W3 schools for instrutions button to tottle and display instructions. 
 * https://www.youtube.com/watch?v=g_vXSKbfUiQ 'Learn JavaScript MOUSE EVENTS in 10 minutes!'
-* https://www.youtube.com/watch?v=GfRgpXvqudM&t=23s 'How to create flag quiz game using html css and javascript | Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game. 
+* https://www.youtube.com/watch?v=GfRgpXvqudM&t=23s 'How to create flag quiz game using html css and javascript | Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game.
+* https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ - Used to convert the excel spreatsheet used for evalution to markdown table.
 
 Image by of Green Globes in background by Clker-Free-Vector-Images from Pixabay
 Flag images from pixabay
