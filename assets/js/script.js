@@ -24,7 +24,7 @@ let rightAns = 0;
 function toggle() {
     let instructionsBox = document.getElementById("instructionsBox");
         if (instructionsBox.style.display === "none"){
-            instructionsBox.style.display = "block"
+            instructionsBox.style.display = "block";
         }
         else {
             instructionsBox.style. display = "none";
@@ -77,7 +77,7 @@ function retrieveQuestions() {
                 });
             });
         }
-    }
+    };
     questionRequest.open("GET", "assets/js/questions.json", true);
     questionRequest.send();
     questionNumber(5);

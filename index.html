@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -39,9 +40,8 @@
             <img id="logo" src="assets/images/logo.webp" alt="world image surrounded by Flags of the World Quiz text">
             <div class="instructions">
                 <!-- toggle button interpreted code from W3 schools (README has link)-->
-                <button onclick="toggle()" id="instructions-btn"
-                    aria-label="click to reveal instructions">INSTRUCTIONS</button>
-                <div id="instructionsBox" aria-label="list of instruction">
+                <button onclick="toggle()" id="instructions-btn">INSTRUCTIONS</button>
+                <div id="instructionsBox">
                     <p>CAN YOU GUESS THESE 5 FLAGS?</p><br>
                     <p>LOOK at the flag - CLICK on your guess!</p><br>
                     <p>Box displays <mark id="green"> GREEN </mark>if you are correct</p><br>
@@ -54,8 +54,8 @@
                 </div>
             </div>
             <div class="flags">
-                <div class="flag-img" aria-label="guess which flag" alt="guess which flag">
-                    <img src="">
+                <div class="flag-img">
+                    <img src="" alt="picture of flag">
                 </div>
                 <div class="options">
                     <ul>
@@ -75,7 +75,7 @@
 
     <!-- Connect to JS file -->
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/questions.json" 
+    <script src="assets/js/questions.json"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 
 </body>
