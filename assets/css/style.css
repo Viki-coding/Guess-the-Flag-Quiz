@@ -49,9 +49,9 @@ a {
 /* Styling of instruction button*/
 #instructions-btn {
     border: 5px solid #246300;
-    background-color: #F2c14E;
+    background-color: #4C80C9;
     padding: 1.3rem;
-    color: #310A31;
+    color: #f1faee;
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 600;
@@ -69,9 +69,9 @@ a {
     line-height: 1.5;
     margin-top: 20px;
     border: 5px solid #246300;
-    background-color: #F2c14E;
+    background-color: #4C80C9;
     padding: 1.3rem;
-    color: #310A31;
+    color: #f1faee;
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 600;
