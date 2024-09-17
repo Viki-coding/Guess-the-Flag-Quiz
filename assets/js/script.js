@@ -53,7 +53,7 @@ function retrieveQuestions() {
                     //once answer is checked move automatically move to next question after 500 miliseconds
                     setTimeout(() => {
                         checkAns(rightAns, qCount);
-                    }, 500);
+                    }, 1000);
 
                     setTimeout(() => {
                         //remove previous flag
@@ -65,12 +65,12 @@ function retrieveQuestions() {
 
                         //Add question data info to show next question
                         addQuestionInfo(questions[currentIndex], qCount);
-                    }, 1000);
+                    }, 1500);
 
                     //Display results
                     setTimeout(() => {
                         displayResults(qCount);
-                    }, 1002);
+                    }, 1600);
                 });
             });
         }
