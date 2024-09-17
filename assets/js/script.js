@@ -65,12 +65,12 @@ function retrieveQuestions() {
 
                         //Add question data info to show next question
                         addQuestionInfo(questions[currentIndex], qCount);
-                    }, 1500);
+                    }, 1600);
 
                     //Display results
                     setTimeout(() => {
                         displayResults(qCount);
-                    }, 1600);
+                    }, 1700);
                 });
             });
         }
@@ -116,6 +116,11 @@ function checkAns(rAnswer, counterSpan) {
             } else {
                 flagList[i].classList.add('wrong');
             }
+            Array.from(options.children).forEach(options =>{
+                if(options.dataset.rAnswer === "true"){
+                    options.classList.add("sucess")
+                }
+            })
         }
     }
 }
