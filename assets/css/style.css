@@ -71,7 +71,7 @@ a {
     border: 5px solid #246300;
     background-color: #4C80C9;
     padding: 1.3rem;
-    color: #f1faee;
+    color: whitesmoke;
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 600;
@@ -93,15 +93,15 @@ h3 {
     padding: 2rem 0;
 }
 
-/* Styling of correct/incorrect results */
+/* Styling of right/wrong in instructions toggle dropdown */
 #green{
     color: #246300;
-    background-color: #F2C14E;
+    background-color: #4C80C9;
 }
 
 #red{
     color: red;
-    background-color: #F2C14E;
+    background-color: #4C80C9;
 }
 
 /* Styling of quiz container inspired by 'How to make a quiz game' by GreatStack link in Readme */
