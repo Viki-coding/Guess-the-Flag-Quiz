@@ -17,7 +17,7 @@ const instructions = document.querySelector('.instructions');
 let currentIndex = 0;
 let rightAns = 0;
 
-/** Add function to display Instructions button and when clicked displays instructions, when button clicked again toggles back to button */
+/** Add function to display Instructions button and when clicked displays instructions, when button clicked again toggles back to button, code inspired by W3 schools link in Readme */
 function toggle() {
     let instructionsBox = document.getElementById("instructionsBox");
     if (instructionsBox.style.display === "none") {
@@ -118,7 +118,7 @@ function checkAns(rAnswer, counterSpan) {
             }
             Array.from(options.children).forEach(options =>{
                 if(options.dataset.rAnswer === "true"){
-                    options.classList.add("sucess")
+                    options.classList.add("success")
                 }
             })
         }

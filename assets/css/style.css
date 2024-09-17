@@ -9,12 +9,14 @@
     color: #310a31;
 }
 
+/* styling of logo */
 #logo {
     text-align: center;
     align-items: center;
     width: 35%;
 }
 
+/* Styling to body of page, inserting background img code interpreted from W£ schools, link in Readme**/
 body {
     background-image: url("../images/green-globe.webp"); 
     background-repeat: repeat;
@@ -23,6 +25,7 @@ body {
     background-color:#f1e3f3;
 }
 
+/* General styling page */
 html {
     font-size: 60%;
     font-weight: 400;
@@ -38,14 +41,12 @@ a {
     text-decoration: none;
 }
 
-.hide {
-    display: none;
-}
-
+/* Display instructions as block so that we can use it as toggle with JS and instrutions, Code inspired by W3 schools, link in Readme*/
 .instuctions{
     display: block;
 }
 
+/* Styling of instruction button*/
 #instructions-btn {
     border: 5px solid #246300;
     background-color: #F2c14E;
@@ -57,10 +58,12 @@ a {
     letter-spacing: .1rem;
 }
 
+/* Create hover effect over instruction button - inspired by W3 schools, link in Readme*/
 #instructions-btn:hover {
     font-size: 2rem;
   }
 
+/* Styling of instructions expanded */
 #instructionsBox {
     display: none;
     line-height: 1.5;
@@ -75,6 +78,7 @@ a {
     letter-spacing: .1rem;
 }
 
+/* Styling of headings */
 h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -89,6 +93,7 @@ h3 {
     padding: 2rem 0;
 }
 
+/* Styling of correct/incorrect results */
 #green{
     color: #246300;
     background-color: #F2C14E;
@@ -99,6 +104,7 @@ h3 {
     background-color: #F2C14E;
 }
 
+/* Styling of quiz container inspired by 'How to make a quiz game' by GreatStack link in Readme */
 .container {
     background-color: rgba(134, 165, 156, .9);
     padding: 18px;
@@ -111,6 +117,7 @@ h3 {
     border: 5px solid #246300; 
 }
 
+/* Styling of question area  */
 .box {
     display: flex;
     align-items: center;
@@ -118,6 +125,7 @@ h3 {
     flex-wrap: wrap;
 }
 
+/* Styling of score area  */
 .box .counter {
     font-size: 2rem;
     font-weight: 650;
@@ -125,6 +133,7 @@ h3 {
     padding: 2rem;
 }
 
+/* Styling of flag display area  */
 .flags {
     display: flex;
     flex-direction: column;
@@ -138,6 +147,7 @@ h3 {
     width: 100%;
 }
 
+/* Applying some zoom in zoom out transition using css and keyframes inspired by 'Flag Quiz App Front End With Salimi' link in Readme */
 .flags .flag-img img {
     width: 100%;
     height: 15rem;
@@ -157,6 +167,7 @@ h3 {
     }
 }
 
+/* Displaying the potenial answers in a list format*/
 .flags .options ul li {
     font-size: 2rem;
     font-weight: 600;
@@ -172,7 +183,7 @@ h3 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-
+/* Styling of reset button*/
 #reset {
     border: 5px solid #246300;
     background-color: #F2c14E;
@@ -184,6 +195,7 @@ h3 {
     letter-spacing: .1rem;
 }
 
+/* Styling of Score results area which is blocked until recalled at the end of quiz */
 .scoreboard {
     display: none;
     padding: 1.5rem;
@@ -195,15 +207,18 @@ h3 {
     color: #00020A;
 }
 
+/* Styling of answers is selected by mouse click */
 .flags .options ul li.active {
     background-color: #F2C14E;
     color: #00020A;
 }
 
+/* Styling of answers if correct */
 .flags .options ul li.success {
     background-color: green;
 }
 
+/* Styling of answers if incorrect */
 .flags .options ul li.wrong {
     background-color: red;
 }
