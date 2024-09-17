@@ -71,7 +71,7 @@ a {
     border: 5px solid #246300;
     background-color: #4C80C9;
     padding: 1.3rem;
-    color: whitesmoke;
+    color: #310a31;
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 600;
@@ -95,12 +95,12 @@ h3 {
 
 /* Styling of right/wrong in instructions toggle dropdown */
 #green{
-    color: #246300;
+    color: #6AC759;
     background-color: #4C80C9;
 }
 
 #red{
-    color: red;
+    color: tomato;
     background-color: #4C80C9;
 }
 

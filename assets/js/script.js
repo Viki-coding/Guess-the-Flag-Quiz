@@ -45,10 +45,7 @@ function retrieveQuestions() {
             flagList.forEach(li => {
                 li.addEventListener('click', () => {
                     let rightAns = questions[currentIndex].correct_answer;
-                    li.classList.add('active');
-                    //Increase index
-                    // currentIndex++;
-                    // questionNumber(5);
+                    li.classList.add('active'); 
 
                     //once answer is checked move automatically move to next question after 500 miliseconds
                     setTimeout(() => {
@@ -62,6 +59,7 @@ function retrieveQuestions() {
                         li.classList.remove('active');
                         li.classList.remove('success');
                         li.classList.remove('wrong');
+                         //Increase index
                         currentIndex++;
                         questionNumber(5);
                         //Add question data info to show next question
