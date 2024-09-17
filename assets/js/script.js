@@ -47,8 +47,8 @@ function retrieveQuestions() {
                     let rightAns = questions[currentIndex].correct_answer;
                     li.classList.add('active');
                     //Increase index
-                    currentIndex++;
-                    questionNumber(5);
+                    // currentIndex++;
+                    // questionNumber(5);
 
                     //once answer is checked move automatically move to next question after 500 miliseconds
                     setTimeout(() => {
@@ -62,15 +62,16 @@ function retrieveQuestions() {
                         li.classList.remove('active');
                         li.classList.remove('success');
                         li.classList.remove('wrong');
-
+                        currentIndex++;
+                        questionNumber(5);
                         //Add question data info to show next question
                         addQuestionInfo(questions[currentIndex], qCount);
-                    }, 1600);
-
+                    }, 2000);
+                    
                     //Display results
                     setTimeout(() => {
                         displayResults(qCount);
-                    }, 1700);
+                    }, 2000);
                 });
             });
         }
