@@ -223,6 +223,7 @@ h3 {
     background-color: red;
 }
 
+/* Add a media query to make the score tally and question 1/5 move to separate lines to fit on mobile */
 @media only screen and (max-width: 433px) {
     .box {
         display: block;
