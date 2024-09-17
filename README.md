@@ -1,6 +1,7 @@
 <h1>FLAGS OF THE WORLD QUIZ</h1>
 <h2>Introduction</h2>
-This quiz is a fun, educational easy to use quiz where the user iniates control.  It tests the user on their knowledge of flags from across the globe. 
+This quiz is a fun, educational easy to use quiz where the user iniates control, makes decisions, gets feedback and tests their knowledge on flags from accross the globe.  
+
 
 <img width="969" alt="Screenshot 2024-09-16 at 20 01 14" src="https://github.com/user-attachments/assets/0e0956d3-5c54-4d9f-843c-918d2419030b">
 
@@ -9,16 +10,16 @@ This quiz is a fun, educational easy to use quiz where the user iniates control.
 
 The game is designed to give the user a fun interactive method to test their knowledge on flags and learn some new flags from countries across the world.  
 
-The game is designed on one page, not cluttered ensuring it is clear to the user the purpose of the game.  
+The game is designed on one page, not cluttered, ensuring it is clear to the user the purpose of the game with intuative features.  
 
-It allows the user to take control and makes the user iniate control and make decisions and then displays the results of that action.  
+It allows the user to iniate control, take an action and then displays the results of that action.  
 
 It is obvious what the quiz is and how to play from the beginning.  
 
-It is very easy to navigate though.  It validates the action giving immeadiate feedback if the user choice is right or wrong. It is immeadiatley evident what the quiz is and how to play it. It is fun, interactive, gives feedback with a nice predicable flow of information to the results page where they can play again if they wish. 
+It is very easy to navigate though out.  It validates the action giving immeadiate feedback if the user choice is right or wrong. It is immeadiatley evident what the quiz is and how to play it. It is fun, interactive, gives feedback with a nice predicable flow of information leading to the results page where they find out their score giving them the motivation to play again if they wish. 
 
 <h2>User Demographics - Target audience</h2>
-The target audience spans various ages and users, helping kids get to know their flags and testing adults on how many flags they really know.  A countries flag demonstrates strong emotive feelings and it is important to have respect for everyone’s background and heritage. Many younger people watching the Olympics saw how proud participating nations are when their athlete takes part, the use of supportive flags on victory laps and the rising of an athlete's flag during a medal presentation demonstrates how important the meaning of flags are to a nation and their people.  This quiz aims at being a fun, educational interactive quiz within a family setting or in school.  The return user knows how easy it is to navigage and will enjoy trying to improve on their previous score.
+The target audience spans various ages and users, helping kids get to know their flags and testing adults on how many flags they really know!  A countries flag demonstrates strong emotive feelings and it is important to have respect for everyone’s background and heritage. Many younger people watching the Olympics saw how proud participating nations are when their athlete takes part, the use of supportive flags on victory laps and the rising of an athlete's flag during a medal presentation demonstrates how important the meaning of flags are to a nation and their people.  This quiz aims at being a fun, educational interactive quiz perfect for playing on your own, with family and friends or in a school setting.  The return user knows how easy it is to navigage and will enjoy trying to improve on their previous score.
 
 <h2>UX</h2>
 
@@ -28,18 +29,17 @@ Site Goals: First Time users will find the site intuitive and easy to navigate. 
 * Prompt the player on a clicking an answer
 * Immediate feedback of whether an answer is correct or not.
 * A tally of the score as they progress
-* Provide a final tally of score.
+* A display indicating which question they are on.
+* Provide a final tally of their scores.
 * Provide the opportunity to reset the game to have another go.
   
 
-
-
 <h2>USER STORIES</h2>
-As a user I want to log into the game easily and view what I need to do easily and quickly without having to signup or commit to anything.  As a user I want to immeadiatly know the purpose of the quiz without trying too hard. As a user I want to visually see the flags and answers clearly, to understand that the mouse cursor changes when I hover over an answer giving me feedback that I need to click on my guess.  As a user when I click I want to get an indicating if my choice has registered by changing colour and I want instant feedback whether my chosen guess is correct or not.  As I user I would like a challenge and the ability to play again to improve my score. As a user I would like to see my correct scores tally up.  As a user I would like the quiz to be fun, interactive, challenging and quick.  As a user I would like to play this game with friends and family to compare scores with each other to have some fun. 
+As a user I want to log into the game and view what I need to do easily and quickly without having to signup or commit to anything.  As a user I want to immeadiatly know the purpose of the quiz without trying to figure it out. As a user I want to visually see the flags and answers clearly, to understand that the mouse cursor changes when I hover over an answer giving me feedback that I need to click on my guess.  As a user when I click I want to get an indication that my choice has been registered by changing colour and I want instant feedback whether my chosen guess is correct or not.  As I user I would like a challenge to stimulate by brain.  As a user I would like the ability to choose to play again if I want to improve my score. As a user I would like to see my correct scores tally up as I progress through the game.  As a user I would like to see the number of correct and incorrect answers I got right at the end of the game. As a user I would like the quiz to be fun, interactive, challenging and quick.  As a user I would like to play this game with friends and family to compare scores with each other to have some competitive fun. 
 
 <h2>Design Choices</h2>
 Colour Scheme
-This is a fun, relaxing game for all the family, we choose calming green and pastel shades, we kept the design clean and uncluttered making it easy in intuitive to navigate. 
+This is a fun, relaxing game for all the family, we choose calming green and pastel shades, we kept the design clean and uncluttered making it easy in intuitive to navigate. We choose I background images of globes.  We designed the container to be transparent so that the globe image can be gently seen through it.  We created a game logo in Canva in globe format with the world and some flags to encompass the meaning of the game. We kept the answer easilty displayed on a clean pale backgound and kept the color pallette the same througout the quiz. 
 
 
 ![Screenshot 2024-09-13 at 06 31 59](https://github.com/user-attachments/assets/fba615a7-7e9f-4187-adc9-1ab4a9929783)
@@ -51,7 +51,7 @@ Using a colour contrast checked we checked which font colours stood out best aga
 
 
 <h2>Typography</h2>
-We used the font Comic Neue which use a Sans Serif which is good for accessibility and is a dyslexia friendly font. We feel it looks fun and is clear and easy to read and add a sense of fun to the quiz.
+We used the font Comic Neue which use a Sans Serif which is good for accessibility and is a dyslexia friendly font. We feel it looks fun and is clear and easy to read and adds a sense of fun to the quiz.
 
 <h2>Wireframes</h2>
 We created a wireframe using Balsamiq to plan out the structure and style of the app. We spoke with some potential users of the game during the testing phase to gain their insight and views. This was the beginning of our design journey, as we progressed with the design we made some changes to the actual page. During this planning phase we researched the fonts and background colours and text colours that would be most suitable and gained user feedback.
@@ -71,14 +71,20 @@ Picture below of WIREFRAMES
 
 
 <h1>QUIZ AREA</h1>
-The quiz area display the number of questions in the quiz and keeps a  tally of correct scores as you progress through the game. 
-**Picture below
+The quiz area display the number of questions in the quiz and keeps a  tally of correct scores as you progress through the game. It also indicates what question you are on.
+
+* Picture below of Quiz:
+
 <img width="1187" alt="Screenshot 2024-09-16 at 15 10 47" src="https://github.com/user-attachments/assets/7a11e7ee-f66f-4887-8f38-110247663953">
 
-<h3>Features</h3>
+<h3>FEATURES</h3>
+
 <h3>Instructions</h3>
 
-<b>The Instructions Area is a nice clear, easy to read set of instructions.</b>
+<b>The Instructions Button, once a mouse hovers over it turns to a hand cursor and enlarges the button to intice the user to click on it.  The instruction button is a clever toggle button feature that once clicked expands the full set of instructions.  When it is clicked again it reduces back, displaying a nice clean quiz area.</b>
+
+When the user moves their mouse accross the potential answers the mouse cursor changes to a hand, indicating to the user that you click on your guess. Once an answer is clicked on and selected the user gets feedback that their answer has been registered and turns yellow, shorlty after the guess will either turn red or green to let the user know whether their answer is right or wrong.  Shorlty after the next flag and potential answers is loaded automaticallly reducing the amount of clicks a user has to do to progress through the game. 
+
  
 <img width="500" alt="Screenshot 2024-09-16 at 15 10 56" src="https://github.com/user-attachments/assets/858dc2d1-4e17-4125-9c40-c60dfa2fcdbb">
 
@@ -88,8 +94,6 @@ The quiz area display the number of questions in the quiz and keeps a  tally of 
 <h3>RESULTS AREA</h3>
 
 <img width="900" alt="Screenshot 2024-09-16 at 15 11 42" src="https://github.com/user-attachments/assets/93372ab6-c503-43ae-87fd-ee05248584ad">
-
-
 
 
 <h2>Interaction Points</h2>
@@ -108,10 +112,11 @@ The future of the flag quiz can be developed in multiple areas, such as:
 
 * A drag and drop of the flag to the correct box would be fun to create and a nice user experience to keep them engaged.
 * Have a larger section of flags from world using an API database.
-* Have different choices of flags to choose from, European, Asia etc.
+* Have different choices of flags to choose from, European, Asia, South America, Africa etc.
 * Have different levels of difficulty.
-* Implement random order of potential answers
-* Creat a leader board
+* Implement random order of potential answers.
+* To every 1 correct answer have 10 incorrect for the data to be used from so the same countries are not always displayed with a particular flag.
+* Create a leader board.
 
 
 
@@ -123,7 +128,7 @@ Aria labels used to describe the content for screen readers and other accessibil
 
 
 <h2>Technologies Used</h2>
-HTML and CSS and JS
+HTML -  CSS -  JS
 
 <h2>Frameworks, Libraries and Programs Used: </h2>
 
@@ -140,9 +145,11 @@ HTML and CSS and JS
 * Am I Responsive - quick tool to check how responsiveness on various devices and creates display
 * Responsive tool - https://responsivetesttool.com/
 * JSHint to check JS code
-* 
+* Spell Check
+
+  
 <h2>Manual Testing</h2>
-We performed manual testing on the site and also ran our html, css and js codes through validators.
+We performed manual testing on the deployed site and also ran our html, css and js codes through validators.
 
 <h3>W3C Validator</h3>
 HTML code on all pages passes through the official W3C validator with no issues.
@@ -179,10 +186,10 @@ We used JSON formatter and Validator to check the quiz question file.
 ![Screenshot 2024-09-16 at 18 12 18](https://github.com/user-attachments/assets/f5227238-00a4-45d7-88da-acfc793edafd)
 
 <h2>Quality Assurance</h2>
-We took a systematic and structural approach to manually test each page to ensure it functions correctly and to help identify potential bugs. We created a specific testing template to ensure and re-check all pages were working correctly as specified with expected and actual outcomes using a methodical approach.
+We took a systematic and structural approach to manually test each page to ensure it functions correctly and to help identify potential bugs. We created a specific testing template to ensure and re-check all aspects of the quiz were working correctly as specified with expected and actual outcomes using a methodical approach. We did final testing on the deployed site. 
 
 <h3>Test Evaluation Sheet:</h3>
-As shown in the evaluation sheet below we navigated around our site and tested all available options to ensure they were working as intended.
+As shown in the evaluation sheet below we navigated around our site and tested all available features to ensure they were working as intended.
 
 | QUIZ PAGE          |    | Feature                                                                                                                                             | Test Performed                                                                                                        | Expected Outcome                                                                                                                    | Pass / Fail |
 | ------------------ | -- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------- |
@@ -224,11 +231,11 @@ Incognito lighthouse testing was completed on all pages with excellent results e
 
 <h2>BUGS</h2>
 <u>Solved Bugs</u>
-I came accross many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator.  
+I came accross many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  
 
 
 <h2>User Experience Assurance</h2>
-We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each page has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a Samsung Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
+We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each aspect of the quiz has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a Samsung Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
 
 <h2>Deployment Steps</h2>
 
