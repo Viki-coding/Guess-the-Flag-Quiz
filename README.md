@@ -1,17 +1,27 @@
 <h1>FLAGS OF THE WORLD QUIZ</h1>
 <h2>Introduction</h2>
-This quiz is a fun, educational easy to use quiz.  It tests the user on their knowledge of flags from across the globe. 
+This quiz is a fun, educational easy to use quiz where the user iniates control.  It tests the user on their knowledge of flags from across the globe. 
 
 <img width="969" alt="Screenshot 2024-09-16 at 20 01 14" src="https://github.com/user-attachments/assets/0e0956d3-5c54-4d9f-843c-918d2419030b">
 
 
 <h2>Description - Project Purpose</h2>
-The game is designed to give the user a fun interactive method to test their knowledge on flags and learn some new flags from countries across the world.
+
+The game is designed to give the user a fun interactive method to test their knowledge on flags and learn some new flags from countries across the world.  
+
+The game is designed on one page, not cluttered ensuring it is clear to the user the purpose of the game.  
+
+It allows the user to take control and makes the user iniate control and make decisions and then displays the results of that action.  
+
+It is obvious what the quiz is and how to play from the beginning.  
+
+It is very easy to navigate though.  It validates the action giving immeadiate feedback if the user choice is right or wrong. It is immeadiatley evident what the quiz is and how to play it. It is fun, interactive, gives feedback with a nice predicable flow of information to the results page where they can play again if they wish. 
 
 <h2>User Demographics - Target audience</h2>
 The target audience spans various ages and users, helping kids get to know their flags and testing adults on how many flags they really know.  A countries flag demonstrates strong emotive feelings and it is important to have respect for everyone’s background and heritage. Many younger people watching the Olympics saw how proud participating nations are when their athlete takes part, the use of supportive flags on victory laps and the rising of an athlete's flag during a medal presentation demonstrates how important the meaning of flags are to a nation and their people.  This quiz aims at being a fun, educational interactive quiz within a family setting or in school.  The return user knows how easy it is to navigage and will enjoy trying to improve on their previous score.
 
 <h2>UX</h2>
+
 Site Goals: First Time users will find the site intuitive and easy to navigate. The site provides the user with what they expect:
 
 * Instructions of how to play
@@ -25,7 +35,7 @@ Site Goals: First Time users will find the site intuitive and easy to navigate. 
 
 
 <h2>USER STORIES</h2>
-As a user I want to log into the game easily and view what I need to do easily and quickly without having to signup.  As a user I want to visually see the flags and answers clearly, to understand that the mouse cursor changes when I hover over and answer giving me feedback that I need to click on my guess.  As a user when I click I want to get an indicating if my choice has registered by changing colour and I want instant feedback whether my chosen guess is correct or not.  As I user I would like a challenge and the ability to play again to improve my score. As a user I would like to see my correct scores tally up.  As a user I would like the quiz to be fun, interactive, challenging and quick.  As a user I would like to play this game with friends and family to compare scores with each other to have some fun. 
+As a user I want to log into the game easily and view what I need to do easily and quickly without having to signup or commit to anything.  As a user I want to immeadiatly know the purpose of the quiz without trying too hard. As a user I want to visually see the flags and answers clearly, to understand that the mouse cursor changes when I hover over an answer giving me feedback that I need to click on my guess.  As a user when I click I want to get an indicating if my choice has registered by changing colour and I want instant feedback whether my chosen guess is correct or not.  As I user I would like a challenge and the ability to play again to improve my score. As a user I would like to see my correct scores tally up.  As a user I would like the quiz to be fun, interactive, challenging and quick.  As a user I would like to play this game with friends and family to compare scores with each other to have some fun. 
 
 <h2>Design Choices</h2>
 Colour Scheme
@@ -83,13 +93,26 @@ The quiz area display the number of questions in the quiz and keeps a  tally of 
 
 
 <h2>Interaction Points</h2>
-The user interacts with the quiz by visually looking at the flag, using their mouse the cursor changes to a hand when hovering over the potential answers giving them the feedback to choose one.  Once an answer is clicked the user gets feedback with a colour change that it is selected and then another colour change to let them know if the answer is right(green) or wrong (red). Then the next flag and answer options are introduced to keep a nice steady pace on the game. At the end of the quiz the users score is displayed with their incorrect/correct results and the user can click on the RESET button to load the quiz again. 
+
+The instuctions can be revealed by clicking on the Instruction button, the user will be prompted by this when their mouse hovers over it - the button enlarges. They can click and toggle to open and close this feature. 
+
+The user interacts with the quiz by visually looking at the flag, using their mouse the cursor changes to a hand when hovering over the potential answers giving them the feedback to choose one.  
+
+Once an answer is clicked and selected the user gets feedback with the colour yellow that their click has been validated, promtply after this the selected anwer will change color again to let them know if the answer is right(green) or wrong (red). Promplty after that the next flag and answer options are introduced to keep a nice steady pace on the game. 
+
+At the end of the quiz the users score is displayed with their incorrect/correct results and the user can click on the RESET button to load the quiz again. 
+
 
 <h2>Future Implementation Section</h2>
- * A drag and drop of the flag to the correct box would be fun to create and a nice user experience to keep them engaged.
- * Have a larger section of flags from world using an API database.
- * Have different choices of flags to choose from, European, Asia etc.
- * Have different levels of difficulty.
+The future of the flag quiz can be developed in multiple areas, such as:
+
+* A drag and drop of the flag to the correct box would be fun to create and a nice user experience to keep them engaged.
+* Have a larger section of flags from world using an API database.
+* Have different choices of flags to choose from, European, Asia etc.
+* Have different levels of difficulty.
+* Implement random order of potential answers
+* Creat a leader board
+
 
 
 <h2>Accessibility</h2>
@@ -137,10 +160,11 @@ CSS code passes through the official (Jigsaw) validator with no issues
 
 
 
-<h2>JavaScript Code Validator</h2>
-We analysed the code with DeepScan and with JSHint. JSHint showed warnings regarding const/let being available from ES6 and arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6'). 
 
-<img width="801" alt="Screenshot 2024-09-16 at 17 41 34" src="https://github.com/user-attachments/assets/8bced427-c61d-4b11-8e28-c6756372eba7">
+<h2>JavaScript Code Validator</h2>
+We analysed the code with DeepScan and with JSHint which passed without errors. 
+
+<img width="1410" alt="Screenshot 2024-09-17 at 15 07 44" src="https://github.com/user-attachments/assets/1a2d6b71-7455-41bd-ae5e-3277f6d8f033">
 
 
 ![Screenshot 2024-09-16 at 17 27 50](https://github.com/user-attachments/assets/b9ca1a43-95d3-4fbf-adc4-12b1fad46c03)
@@ -151,6 +175,7 @@ Deepscan to analyse the javascript that showed no warnings or errors.
 
 <h2> JSON formatter and Validator</h2>
 We used JSON formatter and Validator to check the quiz question file.
+
 ![Screenshot 2024-09-16 at 18 12 18](https://github.com/user-attachments/assets/f5227238-00a4-45d7-88da-acfc793edafd)
 
 <h2>Quality Assurance</h2>
@@ -206,6 +231,7 @@ I came accross many bugs while testing the quiz, from missing semi-colons to the
 We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each page has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a Samsung Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
 
 <h2>Deployment Steps</h2>
+
 * The site is Deployed using GitHub Pages
 * Login to GitHub
 * Go to the projects repository (https://viki-coding.github.io/Guess-the-Flag-Quiz/)
@@ -217,18 +243,21 @@ We want to ensure the end-user has a smooth experience and addressed any potenti
 * Return to CODE tab of Github repo and wait a few minutes for build to finish, refresh page. This will show on GitHub-pages to see active deployments.
 
 <h2>How to Fork</h2>
+
 * Login to Github
 * Go to Project repository
 * Click the FORK button top right corner
 
 <h2>How to Clone</h2>
+
 * Log into Github
 * Go to project repository
 * Click on the code button, select what want to clone HTTPS, SSH or GitHub CLI and copy the link.
 * Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
 * Copy 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
-  
+
 <h2>Acknowledging Contributions & Credits</h2>
+
 * We gained inspiration from these tutorial videos on youtube: https://www.youtube.com/watch?v=MkvHPOT4RS8
 * How to HIDE and SHOW HTML using JavaScript https://www.youtube.com/watch?v=-oQnDrNzTTA.
 * Hide and Show div using JavaScript | On Click Hide and Show Div[HowToCode School.com]
@@ -241,14 +270,17 @@ We want to ensure the end-user has a smooth experience and addressed any potenti
 * https://www.youtube.com/watch?v=g_vXSKbfUiQ 'Learn JavaScript MOUSE EVENTS in 10 minutes!'
 * https://www.youtube.com/watch?v=GfRgpXvqudM&t=23s 'How to create flag quiz game using html css and JavaScript | Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game.
 * https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ - Used to convert the excel spreadsheet used for evaluation to markdown table.
-
-Image by of Green Globes in background by Clicker-Free-Vector-Images from Pixabay
-Flag images from pixabay
-Image of logo created in Canva using canva template. 
+* https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - Inspiration for Instruction & Intruction Box drop down section.
 
 We gained some inspiration from the CI instruction videos for the 'Love Maths' site.
 
 We gained inspiration with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks our very supportive and positive facilitator Laura Maycock and our new facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
+
+<h2>Media/Images</h2>
+Image by of Green Globes in background by Clicker-Free-Vector-Images from Pixabay
+Flag images from pixabay
+Image of logo created in Canva using canva template. 
+
 
 <h2>CONTENT</h2>
 The content text for Flags of the World quiz is written by Viki Mulhall. 
