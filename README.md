@@ -71,9 +71,9 @@ Picture below of WIREFRAMES
 
 
 <h1>QUIZ AREA</h1>
-The quiz area display the number of questions in the quiz and keeps a  tally of correct scores as you progress through the game. It also indicates what question you are on.
+The quiz keeps a  tally of correct scores as you progress through the game. It also indicates what number question you are on.
 
-* Picture below of Quiz:
+<b>Picture below of Quiz:</b>
 
 <img width="1187" alt="Screenshot 2024-09-16 at 15 10 47" src="https://github.com/user-attachments/assets/7a11e7ee-f66f-4887-8f38-110247663953">
 
@@ -81,8 +81,10 @@ The quiz area display the number of questions in the quiz and keeps a  tally of 
 
 <h3>Instructions</h3>
 
-<b>The Instructions Button, once a mouse hovers over it turns to a hand cursor and enlarges the button to intice the user to click on it.  The instruction button is a clever toggle button feature that once clicked expands the full set of instructions.  When it is clicked again it reduces back, displaying a nice clean quiz area.</b>
+<b>The Instructions Button </b>
+Once a mouse hovers over it turns to a hand cursor and enlarges the button to intice the user to click on it.  The instruction button is a clever toggle button feature that once clicked expands the full set of instructions.  When it is clicked again it reduces back, displaying a nice clean quiz area.
 
+<b>Answer Options</b>
 When the user moves their mouse accross the potential answers the mouse cursor changes to a hand, indicating to the user that you click on your guess. Once an answer is clicked on and selected the user gets feedback that their answer has been registered and turns yellow, shorlty after the guess will either turn red or green to let the user know whether their answer is right or wrong.  Shorlty after the next flag and potential answers is loaded automaticallly reducing the amount of clicks a user has to do to progress through the game. 
 
  
@@ -91,7 +93,7 @@ When the user moves their mouse accross the potential answers the mouse cursor c
 
 <img width="500" alt="Screenshot 2024-09-16 at 15 11 07" src="https://github.com/user-attachments/assets/166f8dd1-e6ae-461f-a98f-7d94a3abd6a8">
 
-<h3>RESULTS AREA</h3>
+<h3>Results Area</h3>
 
 <img width="900" alt="Screenshot 2024-09-16 at 15 11 42" src="https://github.com/user-attachments/assets/93372ab6-c503-43ae-87fd-ee05248584ad">
 
