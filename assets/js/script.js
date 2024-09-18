@@ -1,5 +1,3 @@
-//Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game. Link in README//
-
 //Select elements
 const counterSpan = document.querySelector('.counter span');
 const divFlagImg = document.querySelector('.flag-img');
@@ -13,6 +11,7 @@ const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
 const questionScoreDisplay = document.querySelector('.box');
 const instructionsBtn = document.querySelector('.instructions')
+
 
 let currentIndex = 0;
 let rightAns = 0;
@@ -35,6 +34,7 @@ function toggle() {
         'none'
 }
 
+//Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game. Link in README//
 /** Add function to retrieve questions from our questions.json file */
 function retrieveQuestions() {
     let questionRequest = new XMLHttpRequest();
@@ -143,3 +143,6 @@ function displayResults(counter) {
 btnReset.addEventListener('click', () => {
     window.location.reload();
 });
+
+
+
