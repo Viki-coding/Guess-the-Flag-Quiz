@@ -247,7 +247,7 @@ Incognito lighthouse testing was completed on all pages with excellent results e
 
 I came across many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and inspect console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
 
-One challenging bug was after creating the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than selector but that didn't work.  After some chatting with the Sean the CI tutor he told me javascript doesn't know the initial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools also was good at explaining the process to take to fix it. It was a very good learning experience and I was very happy to fix it! 
+One challenging bug was after creating the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than selector but that didn't work.  After some chatting with the Sean the CI tutor he told me javascript doesn't know the initial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools also was good at explaining the process to take to fix it. Get computed style method, link in acknowledments below.  It was a very good learning experience and I was very happy to fix it! 
 
 The question 1 of 5 bug was a good learning experience too teaching me the location of certain rules makes a huge difference to the way things are run.  The bug focused on the Question 1 of 5 process that was meant to increment by 1 each time we moved to the next question, but once I clicked and selected an answer the Question 1 of 5 would move to Question 2 of 5 but would not yet to have moved onto the next question.  I moved the code to a different location and it worked. 
 
@@ -303,7 +303,7 @@ We want to ensure the end-user has a smooth experience and addressed any potenti
 * https://www.youtube.com/watch?v=JeXqaKeJSRI Local Storage Explained in 10 min - ProMaker Dev
 * https://www.youtube.com/watch?v=g_vXSKbfUiQ 'Learn JavaScript MOUSE EVENTS in 10 minutes!'
 
-<b>Videos & Websites that we gained visual clues of how to create the Quiz:</b>
+<b>Videos & Websites that we gained visual inspiration of how to create the Quiz:</b>
 
 * https://www.youtube.com/watch?v=GfRgpXvqudM&t=23s 'How to create flag quiz game using html css and JavaScript | Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game.
 * https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ - Used to convert the excel spreadsheet used for evaluation to markdown table.
@@ -314,6 +314,7 @@ We want to ensure the end-user has a smooth experience and addressed any potenti
 *  How to HIDE and SHOW HTML using JavaScript https://www.youtube.com/watch?v=-oQnDrNzTTA.
 * Hide and Show div using JavaScript | On Click Hide and Show Div[HowToCode School.com]
 * https://www.w3schools.com/jsref/jsref_foreach.asp forEach method in Javascript to get inspiration fothe question/answers.
+* https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_getcomputedstyle - helped to explain and fix the computed style method.
 
 We gained inspiration with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks to our very supportive and positive facilitator Laura Maycock and our new facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
 
