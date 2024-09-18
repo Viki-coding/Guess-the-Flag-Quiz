@@ -1,3 +1,4 @@
+
 //Select elements
 const counterSpan = document.querySelector('.counter span');
 const divFlagImg = document.querySelector('.flag-img');
@@ -11,7 +12,6 @@ const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
 const questionScoreDisplay = document.querySelector('.box');
 const instructionsBtn = document.querySelector('.instructions')
-
 
 let currentIndex = 0;
 let rightAns = 0;
