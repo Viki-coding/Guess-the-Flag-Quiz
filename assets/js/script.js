@@ -117,7 +117,7 @@ function checkAns(rAnswer, counterSpan) {
             }
             Array.from(options.children).forEach(options =>{
                 if(options.dataset.rAnswer === "true"){
-                    options.classList.add("success")
+                    options.classList.add("success");
                 }
             })
         }
