@@ -1,6 +1,6 @@
 <h1>FLAGS OF THE WORLD QUIZ</h1>
 <h2>Introduction</h2>
-This quiz is a fun, educational easy to use quiz where the user iniates control, makes decisions, gets feedback and tests their knowledge on flags from accross the globe.  
+This quiz is a fun, educational easy to use quiz where the user initiate control, makes decisions, gets feedback and tests their knowledge on flags from across the globe.  
 
 <img width="957" alt="Screenshot 2024-09-18 at 16 55 09" src="https://github.com/user-attachments/assets/59c79288-1fc0-464a-83e5-329e6cc053d8">
 
@@ -11,16 +11,16 @@ This quiz is a fun, educational easy to use quiz where the user iniates control,
 
 The game is designed to give the user a fun interactive method to test their knowledge on flags and learn some new flags from countries across the world.  
 
-The game is designed on one page, not cluttered, ensuring it is clear to the user the purpose of the game with intuative features.  
+The game is designed on one page, not cluttered, ensuring it is clear to the user the purpose of the game with intuitive features.  
 
-It allows the user to iniate control, take an action and then displays the results of that action.  
+It allows the user to initiate control, take an action and then displays the results of that action.  
 
 It is obvious what the quiz is and how to play from the beginning.  
 
-It is very easy to navigate though out.  It validates the action giving immeadiate feedback if the user choice is right or wrong. It is immeadiatley evident what the quiz is and how to play it. It is fun, interactive, gives feedback with a nice predicable flow of information leading to the results page where they find out their score giving them the motivation to play again if they wish. 
+It is very easy to navigate through out.  It validates the action giving immediate feedback if the user choice is right or wrong. It is immediately evident what the quiz is and how to play it. It is fun, interactive, gives feedback with a nice predicable flow of information leading to the results page where they find out their score giving them the motivation to play again if they wish. 
 
 <h2>User Demographics - Target audience</h2>
-The target audience spans various ages and users, helping kids get to know their flags and testing adults on how many flags they really know!  A countries flag demonstrates strong emotive feelings and it is important to have respect for everyone’s background and heritage. Many younger people watching the Olympics saw how proud participating nations are when their athlete takes part, the use of supportive flags on victory laps and the rising of an athlete's flag during a medal presentation demonstrates how important the meaning of flags are to a nation and their people.  This quiz aims at being a fun, educational interactive quiz perfect for playing on your own, with family and friends or in a school setting.  The return user knows how easy it is to navigage and will enjoy trying to improve on their previous score.
+The target audience spans various ages and users, helping kids get to know their flags and testing adults on how many flags they really know!  A countries flag demonstrates strong emotive feelings and it is important to have respect for everyone’s background and heritage. Many younger people watching the Olympics saw how proud participating nations are when their athlete takes part, the use of supportive flags on victory laps and the rising of an athlete's flag during a medal presentation demonstrates how important the meaning of flags are to a nation and their people.  This quiz aims at being a fun, educational interactive quiz perfect for playing on your own, with family and friends or in a school setting.  The return user knows how easy it is to navigate and will enjoy trying to improve on their previous score.
 
 <h2>UX</h2>
 
@@ -36,11 +36,11 @@ Site Goals: First Time users will find the site intuitive and easy to navigate. 
   
 
 <h2>USER STORIES</h2>
-As a user I want to log into the game and view what I need to do easily and quickly without having to signup or commit to anything.  As a user I want to immeadiatly know the purpose of the quiz without trying to figure it out. As a user I want to visually see the flags and answers clearly, to understand that the mouse cursor changes when I hover over an answer giving me feedback that I need to click on my guess.  As a user when I click I want to get an indication that my choice has been registered by changing colour and I want instant feedback whether my chosen guess is correct or not.  As I user I would like a challenge to stimulate by brain.  As a user I would like the ability to choose to play again if I want to improve my score. As a user I would like to see my correct scores tally up as I progress through the game.  As a user I would like to see the number of correct and incorrect answers I got right at the end of the game. As a user I would like the quiz to be fun, interactive, challenging and quick.  As a user I would like to play this game with friends and family to compare scores with each other to have some competitive fun. 
+As a user I want to log into the game and view what I need to do easily and quickly without having to signup or commit to anything.  As a user I want to immediately know the purpose of the quiz without trying to figure it out. As a user I want to visually see the flags and answers clearly, to understand that the mouse cursor changes when I hover over an answer giving me feedback that I need to click on my guess.  As a user when I click I want to get an indication that my choice has been registered by changing colour and I want instant feedback whether my chosen guess is correct or not.  As I user I would like a challenge to stimulate by brain.  As a user I would like the ability to choose to play again if I want to improve my score. As a user I would like to see my correct scores tally up as I progress through the game.  As a user I would like to see the number of correct and incorrect answers I got right at the end of the game. As a user I would like the quiz to be fun, interactive, challenging and quick.  As a user I would like to play this game with friends and family to compare scores with each other to have some competitive fun. 
 
 <h2>Design Choices</h2>
 Colour Scheme
-This is a fun, relaxing game for all the family, we choose calming green and pastel shades, we kept the design clean and uncluttered making it easy in intuitive to navigate. We choose I background images of globes.  We designed the container to be transparent so that the globe image can be gently seen through it.  We created a game logo in Canva in globe format with the world and some flags to encompass the meaning of the game. We kept the answer easilty displayed on a clean pale backgound and kept the color pallette the same througout the quiz. 
+This is a fun, relaxing game for all the family, we choose calming green and pastel shades, we kept the design clean and uncluttered making it easy in intuitive to navigate. We choose I background images of globes.  We designed the container to be transparent so that the globe image can be gently seen through it.  We created a game logo in Canva in globe format with the world and some flags to encompass the meaning of the game. We kept the answer easily displayed on a clean pale background and kept the colour palette the same throughout the quiz. 
 
 
 ![Screenshot 2024-09-13 at 06 31 59](https://github.com/user-attachments/assets/fba615a7-7e9f-4187-adc9-1ab4a9929783)
@@ -85,7 +85,7 @@ The quiz keeps a  tally of correct scores as you progress through the game. It a
 <h3>Instructions</h3>
 
 <b>The Instructions Button </b>
-Once a mouse hovers over it turns to a hand cursor and enlarges the button to intice the user to click on it.  The instruction button is a clever toggle button feature that once clicked expands the full set of instructions.  When it is clicked again it reduces back, displaying a nice clean quiz area.
+Once a mouse hovers over it turns to a hand cursor and enlarges the button to entice the user to click on it.  The instruction button is a clever toggle button feature that once clicked expands the full set of instructions.  When it is clicked again it reduces back, displaying a nice clean quiz area.
 
 <img width="450" alt="Screenshot 2024-09-18 at 17 36 28" src="https://github.com/user-attachments/assets/2e530047-d04c-406f-8ec1-0277f4024aad">
 
@@ -95,7 +95,7 @@ Once a mouse hovers over it turns to a hand cursor and enlarges the button to in
 
 
 <b>Answer Options</b>
-When the user moves their mouse accross the potential answers the mouse cursor changes to a hand, indicating to the user that you click on your guess. Once an answer is clicked on and selected the user gets feedback that their answer has been registered and turns yellow, shorlty after the guess will either turn red or green to let the user know whether their answer is right or wrong.  Shorlty after the next flag and potential answers is loaded automaticallly reducing the amount of clicks a user has to do to progress through the game. 
+When the user moves their mouse across the potential answers the mouse cursor changes to a hand, indicating to the user that you click on your guess. Once an answer is clicked on and selected the user gets feedback that their answer has been registered and turns yellow, shortly after the guess will either turn red or green to let the user know whether their answer is right or wrong.  Shortly after the next flag and potential answers is loaded automatically reducing the amount of clicks a user has to do to progress through the game. 
 
 <img width="300" alt="Screenshot 2024-09-18 at 20 18 46" src="https://github.com/user-attachments/assets/56184310-3e99-4080-a359-1053882c6043">
 
@@ -108,7 +108,7 @@ When the user moves their mouse accross the potential answers the mouse cursor c
 
 <h3>Results Area</h3>
 
-Results area, clear and consise.  You can see clearly your incorrect and correct answers and we have the option of pressing RESET to play the game again. 
+Results area, clear and concise.  You can see clearly your incorrect and correct answers and we have the option of pressing RESET to play the game again. 
 
 <img width="1027" alt="Screenshot 2024-09-18 at 16 52 57" src="https://github.com/user-attachments/assets/a83c0386-e665-4cea-8f85-a58bb3ad0564">
 
@@ -117,11 +117,11 @@ Results area, clear and consise.  You can see clearly your incorrect and correct
 
 <h2>Interaction Points</h2>
 
-The instuctions can be revealed by clicking on the Instruction button, the user will be prompted by this when their mouse hovers over it - the button enlarges. They can click and toggle to open and close this feature. 
+The instructions can be revealed by clicking on the Instruction button, the user will be prompted by this when their mouse hovers over it - the button enlarges. They can click and toggle to open and close this feature. 
 
 The user interacts with the quiz by visually looking at the flag, using their mouse the cursor changes to a hand when hovering over the potential answers giving them the feedback to choose one.  
 
-Once an answer is clicked and selected the user gets feedback with the colour yellow that their click has been validated, promtply after this the selected anwer will change color again to let them know if the answer is right(green) or wrong (red). Promplty after that the next flag and answer options are introduced to keep a nice steady pace on the game. 
+Once an answer is clicked and selected the user gets feedback with the colour yellow that their click has been validated, promptly after this the selected answer will change colour again to let them know if the answer is right(green) or wrong (red). Promptly after that the next flag and answer options are introduced to keep a nice steady pace on the game. 
 
 At the end of the quiz the users score is displayed with their incorrect/correct results and the user can click on the RESET button to load the quiz again. 
 
@@ -138,7 +138,7 @@ The future of the flag quiz can be developed in multiple areas, such as:
 * Create a leader board.
 
 <h2>Accessibility</h2>
-Aria labels used to describe the content for screen readers and other accessibility tools. Colours are suitable for people who are colour blind and sans serif text suitable for people with dyslexia. We used coolers to ensure our background and contrast colours worked efficiently and clearly. We ran the site incognito and used Lighthouse to analyse the page with excellent results.  After running the site through lighthouse the first time we gained feedback that we could improve the accessibilty by changeing the background color of instructin button so we did that which improved results. 
+Aria labels used to describe the content for screen readers and other accessibility tools. Colours are suitable for people who are colour blind and sans serif text suitable for people with dyslexia. We used coolers to ensure our background and contrast colours worked efficiently and clearly. We ran the site incognito and used Lighthouse to analyse the page with excellent results.  After running the site through lighthouse the first time we gained feedback that we could improve the accessibility by changing the background colour of instruction button so we did that which improved results. 
 
 <h2>Technologies Used</h2>
 HTML -  CSS -  JS
@@ -223,11 +223,14 @@ As shown in the evaluation sheet below we navigated around our site and tested a
 |                    | 15 |                                                                                                                                                     | Answer 1 questions correctly and 4 incorrectly                                                                        | Result is Correct Ans: 1/ Incorrect: 4                                                                                              | TRUE        |
 | GAME RESET         | 16 | Click on reset to reset game                                                                                                                        | Click on the reset button at the end of the quiz                                                                      | Quiz is re-set and starts again                                                                                                     | TRUE        |
 |                    | 17 | On reset - different flags in random order is displayed                                                                                             | Play game twice and document country flags displayed                                                                  | Game 1: India, Iceland, New Zealand, Romania, Palestine.   <br><br>Game 2: South Korea, Australia, Iceland, New Zealand, Palestine. | TRUE        |
+|                    |    |                                                                                                                                                     |                                                                                                                       |                                                                                                                                     | FALSE       |
+| JSON File          | 18 | Spelling of all countries should be correct                                                                                                         | Have chrome spell check on while testing and copied code into spell checker .                                         | All countries spelled correctly                                                                                                     | TRUE        |
+| JSON File          | 19 | Ensure the correct answer is right                                                                                                                  | Visually checked each flag against answer.                                                                            | All answers correct on quiz                                                                                                         | TRUE        |
 |                    |    |                                                                                                                                                     |                                                                                                                       |                                                                                                                                     |             |
-| Spelling / Grammer | 18 | QUIZ Game Page                                                                                                                                      | Text checked for spelling on ABC Webpage Spell-check                                                                  | No incorrect spellings                                                                                                              | TRUE        |
-|                    | 19 | Score Page                                                                                                                                          | Text checked for spelling on ABC Webpage Spell-check                                                                  | No incorrect spellings                                                                                                              | TRUE        |
-|                    | 20 | READ.me                                                                                                                                             | Text checked for spelling                                                                                             | No incorrect spellings                                                                                                              | TRUE        |
-
+|                    |    |                                                                                                                                                     |                                                                                                                       |                                                                                                                                     |             |
+| Spelling / Grammer | 20 | QUIZ Game Page                                                                                                                                      | Text checked for spelling on ABC Webpage Spell-check                                                                  | No incorrect spellings                                                                                                              | TRUE        |
+|                    | 21 | Score Page                                                                                                                                          | Text checked for spelling on ABC Webpage Spell-check                                                                  | No incorrect spellings                                                                                                              | TRUE        |
+|                    | 22 | READ.me                                                                                                                                             | Text checked for spelling                                                                                             | No incorrect spellings                                                                                                              | TRUE        |
 
 
 <h2>Lighthouse Testing</h2>
@@ -242,9 +245,9 @@ Incognito lighthouse testing was completed on all pages with excellent results e
 
 
 
-I came accross many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and inspect console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - whats working, whats not to be able to focus in on the issue. 
+I came across many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and inspect console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
 
-One challenging bug was after craeting the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than selector but that didn't work.  After some chatting with the Sean the CI tutor he told me javascript doesn't know the initaial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools also was good at explaing the process to take to fix it. It was a very good learning experience and I was very happy to fix it! 
+One challenging bug was after creating the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than selector but that didn't work.  After some chatting with the Sean the CI tutor he told me javascript doesn't know the initial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools also was good at explaining the process to take to fix it. It was a very good learning experience and I was very happy to fix it! 
 
 The question 1 of 5 bug was a good learning experience too teaching me the location of certain rules makes a huge difference to the way things are run.  The bug focused on the Question 1 of 5 process that was meant to increment by 1 each time we moved to the next question, but once I clicked and selected an answer the Question 1 of 5 would move to Question 2 of 5 but would not yet to have moved onto the next question.  I moved the code to a different location and it worked. 
 
@@ -300,7 +303,7 @@ We want to ensure the end-user has a smooth experience and addressed any potenti
 
 * https://www.youtube.com/watch?v=GfRgpXvqudM&t=23s 'How to create flag quiz game using html css and JavaScript | Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game.
 * https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ - Used to convert the excel spreadsheet used for evaluation to markdown table.
-* https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - Inspiration for Instruction & Intruction Box drop down section.
+* https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - Inspiration for Instruction & Instruction Box drop down section.
 *  https://www.youtube.com/watch?v=QU6z69P5BrU interpreted how to the quiz choose random questions from the list.
 *  https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - code interpreted from W3 schools for instructions button to toggle and display instructions.
 *  We gained some inspiration from the CI instruction videos for the 'Love Maths' site.
@@ -322,3 +325,4 @@ The content text for Flags of the World quiz is written by Viki Mulhall.
 <h2>Legal & Ethical Compliance</h2>
 This project is for educational purposes only.
 
+![image](https://github.com/user-attachments/assets/5fbd93ff-1895-4871-bf71-d35678917b42)
