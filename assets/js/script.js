@@ -11,16 +11,17 @@ const scoreDiv = document.querySelector('.scoreboard');
 const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
-
+const questionScoreDisplay = document.querySelector('.box');
+const instructionsBtn = document.querySelector('.instructions')
 
 let currentIndex = 0;
 let rightAns = 0;
 
 /** Add function to display Instructions button and when clicked displays instructions, when button clicked again toggles back to button, code inspired by W3 schools link in Readme */
 //Inspiration of computer.style.property code from W3 schools and guidence from Sean a CI tutor*/
-function toggle(){
+function toggle() {
     // Get instructions box element
-    const instructionsBox = document.querySelector("#instructionsBox"); 
+    const instructionsBox = document.querySelector("#instructionsBox");
     // query the style rules of the element
     const computedStyle = window.getComputedStyle(instructionsBox);
     //get the display style rule
@@ -29,9 +30,9 @@ function toggle(){
     //assign 'block' to the instructionsBox display style
     //otherwise assign 'none'
 
-    instructionsBox.style.display = instructionsBoxDisplayStyle === 'none'
-    ? 'block'
-    : 'none'
+    instructionsBox.style.display = instructionsBoxDisplayStyle === 'none' ?
+        'block' :
+        'none'
 }
 
 /** Add function to retrieve questions from our questions.json file */
@@ -51,7 +52,7 @@ function retrieveQuestions() {
             flagList.forEach(li => {
                 li.addEventListener('click', () => {
                     let rightAns = questions[currentIndex].correct_answer;
-                    li.classList.add('active'); 
+                    li.classList.add('active');
 
                     //once answer is checked move automatically move to next question after 500 miliseconds
                     setTimeout(() => {
@@ -65,13 +66,13 @@ function retrieveQuestions() {
                         li.classList.remove('active');
                         li.classList.remove('success');
                         li.classList.remove('wrong');
-                         //Increase index
+                        //Increase index
                         currentIndex++;
                         questionNumber(5);
                         //Add question data info to show next question
                         addQuestionInfo(questions[currentIndex], qCount);
                     }, 2000);
-                    
+
                     //Display results
                     setTimeout(() => {
                         displayResults(qCount);
@@ -121,11 +122,6 @@ function checkAns(rAnswer, counterSpan) {
             } else {
                 flagList[i].classList.add('wrong');
             }
-            Array.from(options.children).forEach(options =>{
-                if(options.dataset.rAnswer === "correct_answer"){
-                    options.classList.add("success");
-                }
-            })
         }
     }
 }
@@ -135,13 +131,13 @@ function displayResults(counter) {
     if (currentIndex === counter) {
         options.innerHTML = '';
         divFlagImg.innerHTML = '';
-        instructions.style.display = 'none';
+        instructionsBtn.style.display = 'none';
+        questionScoreDisplay.style.display = 'none';
         scoreDiv.style.display = 'block';
         correctAnswer.innerHTML = rightAns;
         incorrectAnswer.innerHTML = counter - rightAns;
     }
 }
-
 
 //Reset new game
 btnReset.addEventListener('click', () => {
