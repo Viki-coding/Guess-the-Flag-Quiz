@@ -17,7 +17,7 @@ let currentIndex = 0;
 let rightAns = 0;
 
 /** Add function to display Instructions button and when clicked displays instructions, when button clicked again toggles back to button, code inspired by W3 schools link in Readme */
-//Inspiration of computer.style.property code from W3 schools and Sean a CI tutor*/
+//Inspiration of computer.style.property code from W3 schools and guidence from Sean a CI tutor*/
 function toggle(){
     // Get instructions box element
     const instructionsBox = document.querySelector("#instructionsBox"); 
@@ -122,7 +122,7 @@ function checkAns(rAnswer, counterSpan) {
                 flagList[i].classList.add('wrong');
             }
             Array.from(options.children).forEach(options =>{
-                if(options.dataset.rAnswer === "true"){
+                if(options.dataset.rAnswer === "correct_answer"){
                     options.classList.add("success");
                 }
             })
