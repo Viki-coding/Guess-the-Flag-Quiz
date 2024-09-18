@@ -2,8 +2,9 @@
 <h2>Introduction</h2>
 This quiz is a fun, educational easy to use quiz where the user iniates control, makes decisions, gets feedback and tests their knowledge on flags from accross the globe.  
 
+<img width="957" alt="Screenshot 2024-09-18 at 16 55 09" src="https://github.com/user-attachments/assets/59c79288-1fc0-464a-83e5-329e6cc053d8">
 
-<img width="969" alt="Screenshot 2024-09-16 at 20 01 14" src="https://github.com/user-attachments/assets/0e0956d3-5c54-4d9f-843c-918d2419030b">
+
 
 
 <h2>Description - Project Purpose</h2>
@@ -75,7 +76,9 @@ The quiz keeps a  tally of correct scores as you progress through the game. It a
 
 <b>Picture below of Quiz:</b>
 
-<img width="1187" alt="Screenshot 2024-09-16 at 15 10 47" src="https://github.com/user-attachments/assets/7a11e7ee-f66f-4887-8f38-110247663953">
+<img width="1126" alt="Screenshot 2024-09-18 at 16 53 20" src="https://github.com/user-attachments/assets/acc0abde-c2b1-44fa-b2c9-4de55d34fa46">
+
+
 
 <h3>FEATURES</h3>
 
@@ -84,18 +87,32 @@ The quiz keeps a  tally of correct scores as you progress through the game. It a
 <b>The Instructions Button </b>
 Once a mouse hovers over it turns to a hand cursor and enlarges the button to intice the user to click on it.  The instruction button is a clever toggle button feature that once clicked expands the full set of instructions.  When it is clicked again it reduces back, displaying a nice clean quiz area.
 
+<img width="450" alt="Screenshot 2024-09-18 at 17 36 28" src="https://github.com/user-attachments/assets/2e530047-d04c-406f-8ec1-0277f4024aad">
+
+
+
+<img width="450" alt="Screenshot 2024-09-18 at 17 36 15" src="https://github.com/user-attachments/assets/1201ddf0-d72d-4570-b0d6-16bf05a3dadd">
+
+
 <b>Answer Options</b>
 When the user moves their mouse accross the potential answers the mouse cursor changes to a hand, indicating to the user that you click on your guess. Once an answer is clicked on and selected the user gets feedback that their answer has been registered and turns yellow, shorlty after the guess will either turn red or green to let the user know whether their answer is right or wrong.  Shorlty after the next flag and potential answers is loaded automaticallly reducing the amount of clicks a user has to do to progress through the game. 
 
- 
-<img width="500" alt="Screenshot 2024-09-16 at 15 10 56" src="https://github.com/user-attachments/assets/858dc2d1-4e17-4125-9c40-c60dfa2fcdbb">
+<img width="300" alt="Screenshot 2024-09-18 at 20 18 46" src="https://github.com/user-attachments/assets/56184310-3e99-4080-a359-1053882c6043">
+
+<img width="200" alt="Screenshot 2024-09-18 at 20 22 40" src="https://github.com/user-attachments/assets/919789b1-21b4-4f28-8a48-7d2b54e4c059">
+
+<img width="300" alt="Screenshot 2024-09-18 at 20 19 02" src="https://github.com/user-attachments/assets/0a0f89f7-eb8a-450f-bccd-e96c0eb20999">
 
 
-<img width="500" alt="Screenshot 2024-09-16 at 15 11 07" src="https://github.com/user-attachments/assets/166f8dd1-e6ae-461f-a98f-7d94a3abd6a8">
+
 
 <h3>Results Area</h3>
 
-<img width="900" alt="Screenshot 2024-09-16 at 15 11 42" src="https://github.com/user-attachments/assets/93372ab6-c503-43ae-87fd-ee05248584ad">
+Results area, clear and consise.  You can see clearly your incorrect and correct answers and we have the option of pressing RESET to play the game again. 
+
+<img width="1027" alt="Screenshot 2024-09-18 at 16 52 57" src="https://github.com/user-attachments/assets/a83c0386-e665-4cea-8f85-a58bb3ad0564">
+
+
 
 
 <h2>Interaction Points</h2>
@@ -120,14 +137,8 @@ The future of the flag quiz can be developed in multiple areas, such as:
 * To every 1 correct answer have 10 incorrect for the data to be used from so the same countries are not always displayed with a particular flag.
 * Create a leader board.
 
-
-
 <h2>Accessibility</h2>
-Aria labels used to describe the content for screen readers and other accessibility tools. Colours are suitable for people who are colour blind and sans serif text suitable for people with dyslexia. We used coolers to ensure our background and contrast colours worked efficiently and clearly. After running our deployed site in incognito mode using Lighthouse we identified ?????
-
-
-<img width="1399" alt="Screenshot 2024-09-16 at 17 21 19" src="https://github.com/user-attachments/assets/6e738e76-1ac6-406e-bf99-f05ee69d67d2">
-
+Aria labels used to describe the content for screen readers and other accessibility tools. Colours are suitable for people who are colour blind and sans serif text suitable for people with dyslexia. We used coolers to ensure our background and contrast colours worked efficiently and clearly. We ran the site incognito and used Lighthouse to analyse the page with excellent results.  After running the site through lighthouse the first time we gained feedback that we could improve the accessibilty by changeing the background color of instructin button so we did that which improved results. 
 
 <h2>Technologies Used</h2>
 HTML -  CSS -  JS
@@ -223,18 +234,28 @@ As shown in the evaluation sheet below we navigated around our site and tested a
 Incognito lighthouse testing was completed on all pages with excellent results ensuring optimal page loading times:
 <u>Quiz Page - Lighthouse Testing:</u>
 
-<img width="1399" alt="Screenshot 2024-09-16 at 17 21 19" src="https://github.com/user-attachments/assets/8d787df4-63ed-4f78-8f00-3e615d6434d5">
-
-
-
-
-<u>Results Page - Lighthouse Testing:</u>
-
+<img width="1260" alt="Screenshot 2024-09-18 at 16 56 24" src="https://github.com/user-attachments/assets/1ac04ee8-d30a-4e9b-96bf-2c4c14d707ce">
 
 <h2>BUGS</h2>
 <u>Solved Bugs</u>
-I came accross many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  
 
+
+
+
+I came accross many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and inspect console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - whats working, whats not to be able to focus in on the issue. 
+
+One challenging bug was after craeting the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than selector but that didn't work.  After some chatting with the Sean the CI tutor he told me javascript doesn't know the initaial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools also was good at explaing the process to take to fix it. It was a very good learning experience and I was very happy to fix it! 
+
+The question 1 of 5 bug was a good learning experience too teaching me the location of certain rules makes a huge difference to the way things are run.  The bug focused on the Question 1 of 5 process that was meant to increment by 1 each time we moved to the next question, but once I clicked and selected an answer the Question 1 of 5 would move to Question 2 of 5 but would not yet to have moved onto the next question.  I moved the code to a different location and it worked. 
+
+Missing flags was down to typos in either the json file on the image file itself. 
+
+<img width="200" alt="Lost flag" src="https://github.com/user-attachments/assets/f88d8f1e-dde7-4f15-ac09-bd8e6989e8bf">
+
+Two right answers was down to typos also but was  good learning experience to test the content of json files also for errors like this.
+
+
+<img width="200" alt="2 right answers" src="https://github.com/user-attachments/assets/9d7c89fa-c4ce-486d-b6a3-2976514704f4">
 
 <h2>User Experience Assurance</h2>
 We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each aspect of the quiz has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a Samsung Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
@@ -267,27 +288,31 @@ We want to ensure the end-user has a smooth experience and addressed any potenti
 
 <h2>Acknowledging Contributions & Credits</h2>
 
+<b>General good videos and links to teaching of JS:<b>
+
 * We gained inspiration from these tutorial videos on youtube: https://www.youtube.com/watch?v=MkvHPOT4RS8
-* How to HIDE and SHOW HTML using JavaScript https://www.youtube.com/watch?v=-oQnDrNzTTA.
-* Hide and Show div using JavaScript | On Click Hide and Show Div[HowToCode School.com]
-* https://www.w3schools.com/jsref/jsref_foreach.asp forEach method in Javascript to get inspiration fothe question/answers.
 * https://www.youtube.com/watch?v=ml2N3APdoB0 How to revert to previous commits to source bug problem when none of my and questions would display.
 * https://www.youtube.com/watch?v=JeXqaKeJSRI How to accept JavaScript USER INPUT in 5 minutes - Bro Code
 * https://www.youtube.com/watch?v=JeXqaKeJSRI Local Storage Explained in 10 min - ProMaker Dev
-* https://www.youtube.com/watch?v=QU6z69P5BrU interpreted how to the quiz choose random questions from the list.
-*  https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - code interpreted from W3 schools for instructions button to toggle and display instructions. 
 * https://www.youtube.com/watch?v=g_vXSKbfUiQ 'Learn JavaScript MOUSE EVENTS in 10 minutes!'
+
+<b>Videos & Websites that we gained visual clues of how to create the Quiz:</b>
+
 * https://www.youtube.com/watch?v=GfRgpXvqudM&t=23s 'How to create flag quiz game using html css and JavaScript | Flag Quiz App Front End With Salimi' code interpreted for structure of quiz game.
 * https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ - Used to convert the excel spreadsheet used for evaluation to markdown table.
 * https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - Inspiration for Instruction & Intruction Box drop down section.
+*  https://www.youtube.com/watch?v=QU6z69P5BrU interpreted how to the quiz choose random questions from the list.
+*  https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp - code interpreted from W3 schools for instructions button to toggle and display instructions.
+*  We gained some inspiration from the CI instruction videos for the 'Love Maths' site.
+*  How to HIDE and SHOW HTML using JavaScript https://www.youtube.com/watch?v=-oQnDrNzTTA.
+* Hide and Show div using JavaScript | On Click Hide and Show Div[HowToCode School.com]
+* https://www.w3schools.com/jsref/jsref_foreach.asp forEach method in Javascript to get inspiration fothe question/answers.
 
-We gained some inspiration from the CI instruction videos for the 'Love Maths' site.
-
-We gained inspiration with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks our very supportive and positive facilitator Laura Maycock and our new facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
+We gained inspiration with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks to our very supportive and positive facilitator Laura Maycock and our new facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
 
 <h2>Media/Images</h2>
 Image by of Green Globes in background by Clicker-Free-Vector-Images from Pixabay
-Flag images from pixabay
+Flag images from Britannica website. 
 Image of logo created in Canva using canva template. 
 
 
