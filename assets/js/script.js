@@ -11,22 +11,28 @@ const scoreDiv = document.querySelector('.scoreboard');
 const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
-const instructions = document.querySelector('.instructions');
 
 
 let currentIndex = 0;
 let rightAns = 0;
 
 /** Add function to display Instructions button and when clicked displays instructions, when button clicked again toggles back to button, code inspired by W3 schools link in Readme */
-function toggle() {
-    let instructionsBox = document.getElementById("instructionsBox");
-    if (instructionsBox.style.display === "none") {
-        instructionsBox.style.display = "block";
-    } else {
-        instructionsBox.style.display = "none";
-    }
-}
+//Inspiration of computer.style.property code from W3 schools and Sean a CI tutor*/
+function toggle(){
+    // Get instructions box element
+    const instructionsBox = document.querySelector("#instructionsBox"); 
+    // query the style rules of the element
+    const computedStyle = window.getComputedStyle(instructionsBox);
+    //get the display style rule
+    const instructionsBoxDisplayStyle = computedStyle.getPropertyValue('display');
+    //if style rule is set to none
+    //assign 'block' to the instructionsBox display style
+    //otherwise assign 'none'
 
+    instructionsBox.style.display = instructionsBoxDisplayStyle === 'none'
+    ? 'block'
+    : 'none'
+}
 
 /** Add function to retrieve questions from our questions.json file */
 function retrieveQuestions() {
