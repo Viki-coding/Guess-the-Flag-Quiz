@@ -49,9 +49,9 @@ a {
 /* Styling of instruction button*/
 #instructions-btn {
     border: 5px solid #246300;
-    background-color: #4C80C9;
+    background-color: #f1e3f3;
     padding: 1.3rem;
-    color: #f1faee;
+    color: #310a31;
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 600;
@@ -69,7 +69,7 @@ a {
     line-height: 1.5;
     margin-top: 20px;
     border: 5px solid #246300;
-    background-color: #4C80C9;
+    background-color: #f1e3f3;
     padding: 1.3rem;
     color: #310a31;
     cursor: pointer;
@@ -95,13 +95,13 @@ h3 {
 
 /* Styling of right/wrong in instructions toggle dropdown */
 #green{
-    color: #6AC759;
-    background-color: #4C80C9;
+    color: green;
+    background-color: #f1e3f3;
 }
 
 #red{
     color: tomato;
-    background-color: #4C80C9;
+    background-color: #f1e3f3;
 }
 
 /* Styling of quiz container inspired by 'How to make a quiz game' by GreatStack link in Readme */
@@ -129,7 +129,7 @@ h3 {
 .box .counter {
     font-size: 2rem;
     font-weight: 650;
-    color: #00020A;
+    color: #310a31;
     padding: 2rem;
 }
 
@@ -186,7 +186,7 @@ h3 {
 /* Styling of reset button*/
 #reset {
     border: 5px solid #246300;
-    background-color: #F2c14E;
+    background-color: #f1e3f3;
     padding: 1.3rem;
     color: #310A31;
     cursor: pointer;
