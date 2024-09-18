@@ -235,15 +235,15 @@ As shown in the evaluation sheet below we navigated around our site and tested a
 
 <h2>Lighthouse Testing</h2>
 Incognito lighthouse testing was completed on all pages with excellent results ensuring optimal page loading times:
+
 <u>Quiz Page - Lighthouse Testing:</u>
+
 
 <img width="1260" alt="Screenshot 2024-09-18 at 16 56 24" src="https://github.com/user-attachments/assets/1ac04ee8-d30a-4e9b-96bf-2c4c14d707ce">
 
 <h2>BUGS</h2>
+
 <u>Solved Bugs</u>
-
-
-
 
 I came across many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and inspect console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
 
@@ -255,10 +255,14 @@ Missing flags was down to typos in either the json file on the image file itself
 
 <img width="200" alt="Lost flag" src="https://github.com/user-attachments/assets/f88d8f1e-dde7-4f15-ac09-bd8e6989e8bf">
 
-Two right answers was down to typos also but was  good learning experience to test the content of json files also for errors like this.
+Two right answers was down to incorrect code in JS which we rectifed.
+During testing we also observed some incorrect spelling of answer options, this was  good learning experience to test the content of json files also for errors like this and run it through a spell check to double check as well as visually checking.
 
 
 <img width="200" alt="2 right answers" src="https://github.com/user-attachments/assets/9d7c89fa-c4ce-486d-b6a3-2976514704f4">
+
+<u> Known Bugs </u>
+Not known unsolved bugs. 
 
 <h2>User Experience Assurance</h2>
 We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each aspect of the quiz has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a Samsung Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
@@ -291,7 +295,7 @@ We want to ensure the end-user has a smooth experience and addressed any potenti
 
 <h2>Acknowledging Contributions & Credits</h2>
 
-<b>General good videos and links to teaching of JS:<b>
+<b>General good videos and links to teaching of JS:</b>
 
 * We gained inspiration from these tutorial videos on youtube: https://www.youtube.com/watch?v=MkvHPOT4RS8
 * https://www.youtube.com/watch?v=ml2N3APdoB0 How to revert to previous commits to source bug problem when none of my and questions would display.
@@ -325,4 +329,3 @@ The content text for Flags of the World quiz is written by Viki Mulhall.
 <h2>Legal & Ethical Compliance</h2>
 This project is for educational purposes only.
 
-![image](https://github.com/user-attachments/assets/5fbd93ff-1895-4871-bf71-d35678917b42)
