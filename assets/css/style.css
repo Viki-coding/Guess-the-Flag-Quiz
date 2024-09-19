@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 /* Wildcard general styling to page */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Comic Neue", sans-serif;
@@ -22,11 +22,11 @@
 
 /* Styling to body of page, inserting background img code interpreted from W£ schools, link in Readme**/
 body {
-    background-image: url("../images/green-globe.webp"); 
+    background-image: url("../images/green-globe.webp");
     background-repeat: repeat;
-    background-size:auto;
+    background-size: auto;
     min-height: 80px;
-    background-color:#f1e3f3;
+    background-color: #f1e3f3;
 }
 
 /* General styling page */
@@ -46,7 +46,7 @@ a {
 }
 
 /* Display instructions as block so that we can use it as toggle with JS and instrutions, Code inspired by W3 schools, link in Readme*/
-.instuctions{
+.instuctions {
     display: block;
 }
 
@@ -65,7 +65,7 @@ a {
 /* Create hover effect over instruction button - inspired by W3 schools, link in Readme*/
 #instructions-btn:hover {
     font-size: 2rem;
-  }
+}
 
 /* Styling of instructions expanded */
 #instructionsBox {
@@ -98,12 +98,12 @@ h3 {
 }
 
 /* Styling of right/wrong in instructions toggle dropdown */
-#green{
+#green {
     color: green;
     background-color: #f1e3f3;
 }
 
-#red{
+#red {
     color: tomato;
     background-color: #f1e3f3;
 }
@@ -118,7 +118,7 @@ h3 {
     width: 90%;
     max-width: 600px;
     border-style: double;
-    border: 5px solid #246300; 
+    border: 5px solid #246300;
 }
 
 /* Styling of question area  */
@@ -161,13 +161,15 @@ h3 {
 
 @keyframes zoom-in-zoom-out {
     0% {
-        transform: scale(.9,.9);
+        transform: scale(.9, .9);
     }
+
     50% {
         transform: scale(1.2, 1.2);
     }
+
     100% {
-        transform: scale(1,1);
+        transform: scale(1, 1);
     }
 }
 
@@ -184,18 +186,18 @@ h3 {
     border-radius: 8px;
     cursor: pointer;
     border: 5px solid #246300;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.flip-card{
+.flip-card {
     width: 300px;
     height: 300px;
     perspective: 1000px;
     margin-left: auto;
     margin-right: auto;
-}
+  } 
 
-.flip-card-inner {
+  .flip-card-inner {
     position: fixed;
     width: 300px;
     height: 300px;
@@ -203,14 +205,14 @@ h3 {
     text-align: center;
     transition: transform 0.9s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
 
-.flip-card:hover .flip-card-inner{
+  .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-}
+  }
 
-.flip-card-back{
+  .flip-card-back {
     background-color: #f1e3f3;
     color: #00020A;
     transform: rotateY(180deg);
@@ -240,7 +242,7 @@ h3 {
     border-radius: .8rem;
 }
 
-.scoreboard .correct, 
+.scoreboard .correct,
 .scoreboard .incorrect {
     color: #00020A;
 }
@@ -265,5 +267,5 @@ h3 {
 @media only screen and (max-width: 433px) {
     .box {
         display: block;
-    }}
-    
+    }
+}
