@@ -166,7 +166,7 @@ HTML -  CSS -  JS
 We performed manual testing on the deployed site and also ran our html, css and js codes through validators.
 
 <h3>W3C Validator</h3>
-HTML code on all pages passes through the official W3C validator with no issues.
+HTML code on all pages passed through the official W3C validator with one expected warning as we had to keep the src="" empty so that it would be populated using our flag images from the json file.  
 
 <u>QUIZ Page - 3C Validator Test:</u>
 
