@@ -157,7 +157,8 @@ HTML -  CSS -  JS
 * Canva - to create logo image
 * Am I Responsive - quick tool to check how responsiveness on various devices and creates display
 * Responsive tool - https://responsivetesttool.com/
-* JSHint to check JS code
+* JSHint to check JS code 
+* https://jsonformatter.curiousconcept.com/ - to check JSON file with questions and answer options
 * Spell Check
 
   
@@ -189,7 +190,7 @@ We analysed the code with DeepScan and with JSHint which passed without errors.
 
 ![Screenshot 2024-09-16 at 17 27 50](https://github.com/user-attachments/assets/b9ca1a43-95d3-4fbf-adc4-12b1fad46c03)
 
-Deepscan to analyse the javascript that showed no warnings or errors. 
+Deepscan to analyse the javascript showed no warnings or errors. 
 
 [![DeepScan grade](https://deepscan.io/api/teams/24765/projects/27981/branches/896436/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=24765&pid=27981&bid=896436)
 
@@ -245,13 +246,13 @@ Incognito lighthouse testing was completed on all pages with excellent results e
 
 <u>Solved Bugs</u>
 
-I came across many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and inspect console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
+I came across many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and the console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
 
-One challenging bug was after creating the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than selector but that didn't work.  After some chatting with the Sean the CI tutor he told me javascript doesn't know the initial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools also was good at explaining the process to take to fix it. Get computed style method, link in acknowledments below.  It was a very good learning experience and I was very happy to fix it! 
+One challenging bug was after creating the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than query.selector but that didn't work.  After some chatting with the Sean the CI tutor who told me javascript doesn't know the initial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools was good at explaining the process to take to fix it. Used the get computed style method, link in acknowledments below.  It was a very good learning experience and I was very happy to fix it! 
 
 The question 1 of 5 bug was a good learning experience too teaching me the location of certain rules makes a huge difference to the way things are run.  The bug focused on the Question 1 of 5 process that was meant to increment by 1 each time we moved to the next question, but once I clicked and selected an answer the Question 1 of 5 would move to Question 2 of 5 but would not yet to have moved onto the next question.  I moved the code to a different location and it worked. 
 
-Missing flags was down to typos in either the json file on the image file itself. 
+Missing flags was down to typos in either the json file or the image file itself. 
 
 <img width="200" alt="Lost flag" src="https://github.com/user-attachments/assets/f88d8f1e-dde7-4f15-ac09-bd8e6989e8bf">
 
@@ -265,7 +266,7 @@ During testing we also observed some incorrect spelling of answer options, this 
 Not known unsolved bugs. 
 
 <h2>User Experience Assurance</h2>
-We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each aspect of the quiz has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a Samsung Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
+We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site. Testing was on-going throughout the build. We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. Each aspect of the quiz has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: iPhone 12, a Samsung Galaxy tablet and MacBook Pro to view the site on various real time screen sizes. All tests responded and well with no bugs reported.
 
 <h2>Deployment Steps</h2>
 
