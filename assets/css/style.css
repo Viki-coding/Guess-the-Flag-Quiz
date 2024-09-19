@@ -240,6 +240,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: .1rem;
+    padding-top: 20px;
 }
 
 /* Styling of Score results area which is blocked until recalled at the end of quiz */
