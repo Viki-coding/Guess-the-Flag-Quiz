@@ -187,6 +187,40 @@ h3 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.flip-card{
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flip-card-inner {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    background-color: #f1e3f3;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+.flip-card-back{
+    background-color: #f1e3f3;
+    color: #00020A;
+    transform: rotateY(180deg);
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
 /* Styling of reset button*/
 #reset {
     border: 5px solid #246300;

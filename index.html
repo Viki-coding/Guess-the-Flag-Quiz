@@ -47,9 +47,9 @@
                     <form id="userinfo">
                         <input type="text" id="input-name">
                         <button id="start-btn">PRESS START</button>
-                     </form>
+                    </form>
                 </div>
-                
+
                 <!-- Correct Score and Question No 1/5 Area-->
                 <div class="box">
                     <h3>Correct Scores: <span></span></h3>
@@ -73,29 +73,31 @@
                 <div class="scoreboard">
                     <h3 class="correct" aria-label="correct score">Correct Answers: <span></span></h3>
                     <h3 class="incorrect" aria-label="incorrect score">Incorrect Answers: <span></span></h3>
-                    
+
                     <div class="results">
                         <!-- Flip Card to reveal resuls code inspired by W3 schools-->
                         <div class="flip-card">
-                          <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                              <img src="/assets/images/green-globe.webp" alt="Reveal Results using fortnite color pallet of green, white and blue" style="width:300px;height:300px;">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/assets/images/green-globe.webp"
+                                        alt="Reveal Results using fortnite color pallet of green, white and blue"
+                                        style="width:300px;height:300px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2 id="name">Mary</h2>
+                                    <h2>Your Results:</h2>
+                                    <label>Questions:</label>
+                                    <div id="totalQuestions">5</div>
+                                    <label> Correct: </label>
+                                    <div id="correct">01</div>
+                                    <label>Incorrect:</label>
+                                    <div id="incorrect">01</div>
+                                </div>
                             </div>
-                            <div class="flip-card-back">
-                              <h2 id="name">Mary</h2> 
-                              <h2>Your Results:</h2>
-                              <label>Questions:</label>
-                              <div id="totalQuestions">5</div>
-                              <label> Correct: </label>
-                              <div id="correct">01</div>
-                              <label>Incorrect:</label>
-                              <div id="incorrect">01</div>
-                            </div>
-                          </div>
                         </div>
                     </div>
-                    
-                    
+
+
                     <!-- RESET BUTTON -->
                     <button id="reset" aria-label="this button resets the game">RESET GAME</button>
                 </div>
@@ -107,7 +109,7 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.json"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-    
+
 </body>
 
 </html>
