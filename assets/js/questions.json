@@ -88,5 +88,77 @@
             "Singapore"
         ],
         "correct_answer": "South Korea"
+    },
+    {
+        "img": "cambodia.webp",
+        "option": [
+            "Uruguay",
+            "Cambodia",
+            "Turkey"
+        ],
+        "correct_answer": "Cambodia"
+    },
+    {
+        "img": "cuba.webp",
+        "option": [
+            "Cuba",
+            "Vatican City",
+            "Singapore"
+        ],
+        "correct_answer": "Cuba"
+    },
+    {
+        "img": "finland.webp",
+        "option": [
+            "Serbia",
+            "Slovakia",
+            "Finland"
+        ],
+        "correct_answer": "Finland"
+    },
+    {
+        "img": "kenya.webp",
+        "option": [
+            "Samoa",
+            "Kenya",
+            "Qatar"
+        ],
+        "correct_answer": "Kenya"
+    },
+    {
+        "img": "mexico.webp",
+        "option": [
+            "Mexico",
+            "Spain",
+            "Nepal"
+        ],
+        "correct_answer": "Mexico"
+    },
+    {
+        "img": "switzerland.webp",
+        "option": [
+            "Norway",
+            "Peru",
+            "Switerland"
+        ],
+        "correct_answer": "Switerland"
+    },
+    {
+        "img": "united-kingdom.webp",
+        "option": [
+            "Italy",
+            "United Kingdom",
+            "Japan"
+        ],
+        "correct_answer": "United Kingdom"
+    },
+    {
+        "img": "usa.webp",
+        "option": [
+            "USA",
+            "Denmark",
+            "Cyprus"
+        ],
+        "correct_answer": "USA"
     }
 ]
