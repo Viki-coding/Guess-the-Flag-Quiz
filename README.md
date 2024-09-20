@@ -108,9 +108,11 @@ When the user moves their mouse across the potential answers the mouse cursor ch
 
 <h3>Results Area</h3>
 
-Results area, clear and concise.  You can see clearly your incorrect and correct answers and we have the option of pressing RESET to play the game again. 
+We added a bif of fun to the Results area, the user has to move their mouse over the 'Reveal Result' icon to display their score. You can see clearly your incorrect and correct answers and we have the option of pressing RESET to play the game again. 
 
-<img width="1027" alt="Screenshot 2024-09-18 at 16 52 57" src="https://github.com/user-attachments/assets/a83c0386-e665-4cea-8f85-a58bb3ad0564">
+<img width="400" alt="Screenshot 2024-09-20 at 09 52 03" src="https://github.com/user-attachments/assets/6fac8bcb-dd0b-4ae9-8dfc-134ed6468ab1">
+
+<img width="400" alt="Screenshot 2024-09-20 at 09 52 16" src="https://github.com/user-attachments/assets/f237f4c0-03cc-4af4-a137-1d20cb4820d8">
 
 
 
@@ -123,7 +125,7 @@ The user interacts with the quiz by visually looking at the flag, using their mo
 
 Once an answer is clicked and selected the user gets feedback with the colour yellow that their click has been validated, promptly after this the selected answer will change colour again to let them know if the answer is right(green) or wrong (red). Promptly after that the next flag and answer options are introduced to keep a nice steady pace on the game. 
 
-At the end of the quiz the users score is displayed with their incorrect/correct results and the user can click on the RESET button to load the quiz again. 
+At the end of the quiz the users score is displayed with their incorrect/correct results on a flip card, they have to move their mouse over the 'Reveal Results' card to display what they got.  The user can click on the RESET button to load the quiz again. 
 
 
 <h2>Future Implementation Section</h2>
@@ -248,11 +250,11 @@ Incognito lighthouse testing was completed on all pages with excellent results e
 
 I came across many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and the console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
 
-One challenging bug was after creating the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than query.selector but that didn't work.  After some chatting with the Sean the CI tutor who told me javascript doesn't know the initial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools was good at explaining the process to take to fix it. Used the get computed style method, link in acknowledments below.  It was a very good learning experience and I was very happy to fix it! 
+One challenging bug was after creating the toggle button on the instructions button, when clicked was supposed to expand to display the entire instructions and when clicked again toggled back to the button.  It would take 2 clicks to get the instruction button to expand, after that it would only need one click to toggle. After searching on google for help, someone suggested changing the selectElementbyId rather than query.selector but that didn't work.  After some chatting with the Sean the CI tutor who told me javascript doesn't know the initial value of the style rules, so suggested using box display style and ternary rules to fix the problem.  W3 schools was good at explaining the process to take to fix it. Used the get computed style method, link in acknowledgments below.  It was a very good learning experience and I was very happy to fix it! 
 
 The question 1 of 5 bug was a good learning experience too teaching me the location of certain rules makes a huge difference to the way things are run.  The bug focused on the Question 1 of 5 process that was meant to increment by 1 each time we moved to the next question, but once I clicked and selected an answer the Question 1 of 5 would move to Question 2 of 5 but would not yet to have moved onto the next question.  I moved the code to a different location and it worked. 
 
-Missing flags was down to typos in either the json file or the image file itself. 
+Missing flags was down to typos in either the json file and the image file itself. 
 
 <img width="200" alt="Lost flag" src="https://github.com/user-attachments/assets/f88d8f1e-dde7-4f15-ac09-bd8e6989e8bf">
 

@@ -11,13 +11,13 @@ const correctAnswer = document.querySelector('.scoreboard .correct span');
 const incorrectAnswer = document.querySelector('.scoreboard .incorrect span');
 const btnReset = document.querySelector('#reset');
 const questionScoreDisplay = document.querySelector('.box');
-const instructionsBtn = document.querySelector('.instructions')
+const instructionsBtn = document.querySelector('.instructions');
 
 let currentIndex = 0;
 let rightAns = 0;
 
 /** Add function to display Instructions button and when clicked displays instructions, when button clicked again toggles back to button, code inspired by W3 schools link in Readme */
-//Inspiration of computer.style.property code from W3 schools */
+//Inspiration of computer.style.property code from W3 chools */
 function toggle() {
     // Get instructions box element
     const instructionsBox = document.querySelector("#instructionsBox");
@@ -31,7 +31,7 @@ function toggle() {
 
     instructionsBox.style.display = instructionsBoxDisplayStyle === 'none' ?
         'block' :
-        'none'
+        'none';
 }
 
 //Flag Quiz App Front End With Salimi' code interpreted for part of quiz game. Link in README//
