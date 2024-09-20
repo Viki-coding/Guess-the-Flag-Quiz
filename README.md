@@ -189,13 +189,15 @@ We analysed the code with DeepScan and with JSHint which passed without errors.
 
 <img width="992" alt="Screenshot 2024-09-20 at 12 26 43" src="https://github.com/user-attachments/assets/a84e1414-37e9-43c5-9507-6c8bf616627e">
 
+![Screenshot 2024-09-20 at 12 32 58](https://github.com/user-attachments/assets/4648a6ea-f2be-4bdc-974e-27b384d230c1)
 
 
-![Screenshot 2024-09-16 at 17 27 50](https://github.com/user-attachments/assets/b9ca1a43-95d3-4fbf-adc4-12b1fad46c03)
 
 Deepscan to analyse the javascript showed no warnings or errors. 
 
 [![DeepScan grade](https://deepscan.io/api/teams/24765/projects/27981/branches/896436/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=24765&pid=27981&bid=896436)
+
+
 
 <h2> JSON formatter and Validator</h2>
 We used JSON formatter and Validator to check the quiz question file.
